@@ -15,7 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Geovanni Da Costa Xavier
 * Janderson Rodrigues Dos Santos
 * Matheus Da Cunha Da Fonseca
-
+* Vagner Henrique Mengali Corrêa
 
 ## Orientador
 
