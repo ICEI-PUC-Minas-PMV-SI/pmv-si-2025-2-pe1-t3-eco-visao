@@ -4,7 +4,9 @@ As florestas de Minas Gerais, em especial a Serra do Curral, localizada na regi�
 
 Um dos principais entraves para o enfrentamento desses problemas é a ausência de ferramentas eficazes de monitoramento contínuo e em tempo real. Hoje, a fiscalização ambiental ainda é altamente dependente de denúncias da população e de ações presenciais pontuais, o que gera lentidão na identificação de ocorrências e limita a capacidade de resposta das autoridades competentes. Isso faz com que muitos danos ambientais sejam percebidos apenas quando já se tornaram irreversíveis, acarretando prejuízos não apenas ambientais, mas também sociais e econômicos.  
 
-Nesse cenário, torna-se evidente a necessidade de tecnologias inovadoras capazes de integrar dados de diferentes fontes — como imagens de satélite, sensores ambientais e registros comunitários — para fornecer informações rápidas, acessíveis e precisas. O desenvolvimento de uma plataforma de monitoramento em tempo real para a Serra do Curral surge como uma solução estratégica, capaz de apoiar órgãos governamentais, ONGs e a própria sociedade civil no combate às ameaças florestais. Além de reduzir custos de fiscalização e aumentar a eficiência das ações, a ferramenta tem potencial de criar um impacto positivo duradouro, promovendo a preservação ambiental e contribuindo para a sustentabilidade regional.  
+Nesse cenário, torna-se evidente a necessidade de tecnologias inovadoras capazes de integrar dados de diferentes fontes — como imagens de satélite, sensores ambientais e registros comunitários — para fornecer informações rápidas, acessíveis e precisas. O desenvolvimento de uma plataforma de monitoramento em tempo real para a Serra do Curral surge como uma solução estratégica, capaz de apoiar órgãos governamentais, ONGs e a própria sociedade civil no combate às ameaças florestais. Além de reduzir custos de fiscalização e aumentar a eficiência das ações, a ferramenta tem potencial de criar um impacto positivo duradouro, promovendo a preservação ambiental e contribuindo para a sustentabilidade regional.
+
+---
 
 ## Problema
 
@@ -12,7 +14,9 @@ O avanço contínuo do desmatamento e das queimadas em áreas florestais tem se 
 
 Além disso, muitas ocorrências de exploração de recursos naturais — como mineração irregular, extração de madeira e caça ou pesca predatória — permanecem ocultas pela ausência de monitoramento eficiente e pela limitação de recursos humanos e tecnológicos dos órgãos responsáveis. O resultado é a degradação acelerada do meio ambiente, a perda de biodiversidade e o aumento de riscos sociais, como a contaminação de mananciais e o deslocamento forçado de comunidades tradicionais.  
 
-Diante desse cenário, torna-se evidente a necessidade de um sistema que permita a detecção contínua e precisa dessas atividades, fornecendo dados confiáveis para embasar ações rápidas de fiscalização e políticas públicas de preservação ambiental.  
+Diante desse cenário, torna-se evidente a necessidade de um sistema que permita a detecção contínua e precisa dessas atividades, fornecendo dados confiáveis para embasar ações rápidas de fiscalização e políticas públicas de preservação ambiental.
+
+---
 
 ## Objetivos
 
@@ -25,18 +29,19 @@ de dados georreferenciada, que permitirá o registro, armazenamento e consulta d
 Além disso, pretende-se desenvolver uma plataforma de visualização interativa, em formato de dashboard ou mapa dinâmico, que torne o acesso aos dados mais intuitivo e acessível a diferentes públicos, incluindo pesquisadores, comunidades locais, organizações ambientais e autoridades. O sistema também deve gerar alertas em tempo real, garantindo agilidade no combate a crimes ambientais e desastres naturais.  
 
 Por fim, este trabalho busca contribuir para o planejamento de políticas públicas, fornecendo informações estratégicas que possibilitem ações  
-preventivas, de fiscalização e de recuperação ambiental, alinhando tecnologia, sustentabilidade e inovação em prol da preservação das florestas.  
+preventivas, de fiscalização e de recuperação ambiental, alinhando tecnologia, sustentabilidade e inovação em prol da preservação das florestas.
+
+---
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A preservação ambiental e o monitoramento de áreas florestais representam desafios críticos no contexto atual, especialmente em regiões de grande importância ecológica, como a Serra do Curral em Minas Gerais. Estudos recentes indicam que o desmatamento e as queimadas ilegais têm aumentado de forma significativa, afetando não apenas a biodiversidade, mas também a qualidade de vida das populações locais e a disponibilidade de recursos naturais essenciais, como água potável e solo fértil.  
 
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
+A escolha deste projeto se justifica pela necessidade de uma solução tecnológica que permita o monitoramento em tempo real, fornecendo informações precisas e confiáveis para órgãos governamentais, ONGs e comunidades locais. Ao integrar dados de diferentes fontes — incluindo imagens de satélite, sensores ambientais e registros comunitários — a plataforma proposta busca reduzir o tempo de resposta a irregularidades ambientais, aumentar a eficiência das ações de fiscalização e minimizar impactos negativos decorrentes de atividades ilegais.  
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Além disso, o desenvolvimento desta aplicação atende a objetivos específicos de pesquisa e inovação tecnológica. A utilização de inteligência artificial e análise de dados geoespaciais permitirá a identificação de padrões de desmatamento e queimadas, contribuindo para tomadas de decisão mais assertivas e estratégias preventivas. Dados estatísticos, entrevistas com especialistas e informações coletadas em campo reforçam a relevância do problema e evidenciam que soluções digitais como esta têm potencial de gerar impacto social e ambiental significativo, promovendo a sustentabilidade regional e fortalecendo a participação da sociedade na proteção do meio ambiente.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+---
 
 ## Público-Alvo
 
