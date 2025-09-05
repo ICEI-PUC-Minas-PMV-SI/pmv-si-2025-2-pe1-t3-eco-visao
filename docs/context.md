@@ -10,11 +10,11 @@ Nesse cenário, torna-se evidente a necessidade de tecnologias inovadoras capaze
 
 ## Problema
 
-O avanço contínuo do desmatamento e das queimadas em áreas florestais tem se mostrado um desafio crítico para autoridades ambientais, organizações não governamentais e comunidades locais. Apesar da existência de leis ambientais e de ações de fiscalização, a dificuldade em identificar rapidamente essas atividades ilegais compromete a efetividade das respostas e favorece a impunidade.  
+O avanço contínuo do desmatamento e das queimadas em Minas Gerais, especialmente em áreas de grande importância ecológica e social como a Serra do Curral, representa um desafio crítico para autoridades e a sociedade. Apesar da existência de leis e fiscalização, a dificuldade em identificar rapidamente atividades ilegais, como a mineração irregular e a extração de madeira, compromete a efetividade das respostas e favorece a impunidade, resultando na degradação acelerada do meio ambiente.
 
-Além disso, muitas ocorrências de exploração de recursos naturais — como mineração irregular, extração de madeira e caça ou pesca predatória — permanecem ocultas pela ausência de monitoramento eficiente e pela limitação de recursos humanos e tecnológicos dos órgãos responsáveis. O resultado é a degradação acelerada do meio ambiente, a perda de biodiversidade e o aumento de riscos sociais, como a contaminação de mananciais e o deslocamento forçado de comunidades tradicionais.  
+A situação na Serra do Curral, um dos principais cartões-postais de Belo Horizonte e um ecossistema vital, exemplifica essa problemática. A região enfrenta uma "situação de iminente colapso", conforme apontado por especialistas, devido à pressão de empreendimentos minerários que ameaçam sua integridade e a segurança hídrica da capital. A exploração de recursos naturais, muitas vezes oculta pela ausência de monitoramento eficiente, intensifica a perda de biodiversidade e aumenta os riscos de contaminação de mananciais, afetando diretamente as comunidades locais.
 
-Diante desse cenário, torna-se evidente a necessidade de um sistema que permita a detecção contínua e precisa dessas atividades, fornecendo dados confiáveis para embasar ações rápidas de fiscalização e políticas públicas de preservação ambiental.
+Diante desse cenário de "terra arrasada", é evidente a necessidade de um sistema que permita a detecção contínua e precisa dessas atividades. A implementação de tecnologias para fornecer dados confiáveis é fundamental para embasar ações rápidas de fiscalização e fortalecer políticas públicas de preservação, garantindo a proteção de patrimônios como a Serra do Curral para as futuras gerações.
 
 ---
 
