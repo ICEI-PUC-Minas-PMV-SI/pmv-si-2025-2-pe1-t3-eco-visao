@@ -1,45 +1,18 @@
 # Introdução
 
-As florestas de Minas Gerais, em especial a Serra do Curral, localizada na região
-metropolitana de Belo Horizonte, enfrentam atualmente uma série de desafios
-ambientais e sociais que comprometem sua preservação e sustentabilidade. Essa
-serra, além de ser um patrimônio natural e cultural, desempenha papel essencial
-na regulação climática e na manutenção da biodiversidade local. Entretanto,
-pressões como desmatamento ilegal, queimadas, exploração irregular de recursos
-naturais e ocupações desordenadas têm provocado degradação acelerada,
-colocando em risco tanto o equilíbrio ecológico quanto a qualidade de vida da
-população que depende direta e indiretamente desse ecossistema.
-Um dos principais entraves para o enfrentamento desses problemas é a ausência
-de ferramentas eficazes de monitoramento contínuo e em tempo real. Hoje, a
-fiscalização ambiental ainda é altamente dependente de denúncias da população e
-de ações presenciais pontuais, o que gera lentidão na identificação de ocorrências
-e limita a capacidade de resposta das autoridades competentes. Isso faz com que
-muitos danos ambientais sejam percebidos apenas quando já se tornaram
-irreversíveis, acarretando prejuízos não apenas ambientais, mas também sociais e
-econômicos.
-Nesse cenário, torna-se evidente a necessidade de tecnologias inovadoras
-capazes de integrar dados de diferentes fontes — como imagens de satélite,
-sensores ambientais e registros comunitários — para fornecer informações
-rápidas, acessíveis e precisas. O desenvolvimento de uma plataforma de
-monitoramento em tempo real para a Serra do Curral surge como uma solução
-estratégica, capaz de apoiar órgãos governamentais, ONGs e a própria sociedade
-civil no combate às ameaças florestais. Além de reduzir custos de fiscalização e
-aumentar a eficiência das ações, a ferramenta tem potencial de criar um impacto
-positivo duradouro, promovendo a preservação ambiental e contribuindo para a
-sustentabilidade regional.
+As florestas de Minas Gerais, em especial a Serra do Curral, localizada na região metropolitana de Belo Horizonte, enfrentam atualmente uma série de desafios ambientais e sociais que comprometem sua preservação e sustentabilidade. Essa serra, além de ser um patrimônio natural e cultural, desempenha papel essencial na regulação climática e na manutenção da biodiversidade local. Entretanto, pressões como desmatamento ilegal, queimadas, exploração irregular de recursos naturais e ocupações desordenadas têm provocado degradação acelerada, colocando em risco tanto o equilíbrio ecológico quanto a qualidade de vida da população que depende direta e indiretamente desse ecossistema.  
+
+Um dos principais entraves para o enfrentamento desses problemas é a ausência de ferramentas eficazes de monitoramento contínuo e em tempo real. Hoje, a fiscalização ambiental ainda é altamente dependente de denúncias da população e de ações presenciais pontuais, o que gera lentidão na identificação de ocorrências e limita a capacidade de resposta das autoridades competentes. Isso faz com que muitos danos ambientais sejam percebidos apenas quando já se tornaram irreversíveis, acarretando prejuízos não apenas ambientais, mas também sociais e econômicos.  
+
+Nesse cenário, torna-se evidente a necessidade de tecnologias inovadoras capazes de integrar dados de diferentes fontes — como imagens de satélite, sensores ambientais e registros comunitários — para fornecer informações rápidas, acessíveis e precisas. O desenvolvimento de uma plataforma de monitoramento em tempo real para a Serra do Curral surge como uma solução estratégica, capaz de apoiar órgãos governamentais, ONGs e a própria sociedade civil no combate às ameaças florestais. Além de reduzir custos de fiscalização e aumentar a eficiência das ações, a ferramenta tem potencial de criar um impacto positivo duradouro, promovendo a preservação ambiental e contribuindo para a sustentabilidade regional.  
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
+O avanço contínuo do desmatamento e das queimadas em áreas florestais tem se mostrado um desafio crítico para autoridades ambientais, organizações não governamentais e comunidades locais. Apesar da existência de leis ambientais e de ações de fiscalização, a dificuldade em identificar rapidamente essas atividades ilegais compromete a efetividade das respostas e favorece a impunidade.  
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+Além disso, muitas ocorrências de exploração de recursos naturais — como mineração irregular, extração de madeira e caça ou pesca predatória — permanecem ocultas pela ausência de monitoramento eficiente e pela limitação de recursos humanos e tecnológicos dos órgãos responsáveis. O resultado é a degradação acelerada do meio ambiente, a perda de biodiversidade e o aumento de riscos sociais, como a contaminação de mananciais e o deslocamento forçado de comunidades tradicionais.  
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Diante desse cenário, torna-se evidente a necessidade de um sistema que permita a detecção contínua e precisa dessas atividades, fornecendo dados confiáveis para embasar ações rápidas de fiscalização e políticas públicas de preservação ambiental.  
 
 ## Objetivos
 
