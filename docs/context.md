@@ -23,12 +23,20 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é desenvolver um software de monitoramento em tempo real voltado para o acompanhamento de áreas florestais.  
+Esse sistema tem como finalidade identificar e reportar atividades relacionadas ao desmatamento, queimadas e exploração de recursos naturais,  
+oferecendo suporte à preservação ambiental e auxiliando órgãos de fiscalização no processo de tomada de decisão.  
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Entre os objetivos específicos, busca-se implementar algoritmos de análise de imagens de satélite, radar e drones, capazes de detectar  
+automaticamente alterações na cobertura florestal e a ocorrência de focos de incêndio. Outro ponto fundamental é a construção de uma base  
+de dados georreferenciada, que permitirá o registro, armazenamento e consulta de informações históricas sobre as áreas monitoradas.  
+
+Além disso, pretende-se desenvolver uma plataforma de visualização interativa, em formato de dashboard ou mapa dinâmico, que torne o acesso  
+aos dados mais intuitivo e acessível a diferentes públicos, incluindo pesquisadores, comunidades locais, organizações ambientais e autoridades.  
+O sistema também deve gerar alertas em tempo real, garantindo agilidade no combate a crimes ambientais e desastres naturais.  
+
+Por fim, este trabalho busca contribuir para o planejamento de políticas públicas, fornecendo informações estratégicas que possibilitem ações  
+preventivas, de fiscalização e de recuperação ambiental, alinhando tecnologia, sustentabilidade e inovação em prol da preservação das florestas.  
 
 ## Justificativa
 
