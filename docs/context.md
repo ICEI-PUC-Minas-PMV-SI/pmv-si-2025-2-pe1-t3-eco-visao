@@ -43,12 +43,6 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público-alvo da aplicação é formado predominantemente das instituições responsáveis pelo controle ambiental, estes como o IBAMA e o IEF, que empenham no objetivo comum da proteção florestal e animal. Outro participante são os corpos de bombeiros e defesa civil, que são os primeiros à tomar ação contra incêndios. Além disso, a polícia ambiental também exerce um importante papel, este sendo o monitoramento e o combate aos crimes ambientais, como desmatamento, queimadas e caça ou pesca ilegal. Por fim, as comunidades locais, estas que, possuindo acesso à ferramenta, terão um poderoso recurso para a proteção de vidas.
+ Segundo o G1 (2025), a Polícia Federal apontou que houve extração ilegal na Serra do Curral - BH por 11 anos. A PF detalhou como a Empresa de Mineração Pau Branco (EMPABA) forjou a tomada de ações de proteção ambiental da área tombada para a realização da mineração local, a qual desencadeou a destruição de nascentes e cursos d'água, além da possível contaminação do lençol freático. Esse caso reforça a importância do constante monitoramento para identificar atividades irregulares e acionar os órgãos de defesa.
+ Com base na definição do público-alvo, evidencia-se que o recurso proposto se apresenta como um forte e confiável instrumento para manter a fiscalização, acelerar a resposta emergencial e ampliar a participação das comunidades locais a favor da proteção ambiental.
