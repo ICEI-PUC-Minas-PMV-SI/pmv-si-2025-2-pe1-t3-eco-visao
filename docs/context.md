@@ -1,12 +1,32 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
-
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+As florestas de Minas Gerais, em especial a Serra do Curral, localizada na região
+metropolitana de Belo Horizonte, enfrentam atualmente uma série de desafios
+ambientais e sociais que comprometem sua preservação e sustentabilidade. Essa
+serra, além de ser um patrimônio natural e cultural, desempenha papel essencial
+na regulação climática e na manutenção da biodiversidade local. Entretanto,
+pressões como desmatamento ilegal, queimadas, exploração irregular de recursos
+naturais e ocupações desordenadas têm provocado degradação acelerada,
+colocando em risco tanto o equilíbrio ecológico quanto a qualidade de vida da
+população que depende direta e indiretamente desse ecossistema.
+Um dos principais entraves para o enfrentamento desses problemas é a ausência
+de ferramentas eficazes de monitoramento contínuo e em tempo real. Hoje, a
+fiscalização ambiental ainda é altamente dependente de denúncias da população e
+de ações presenciais pontuais, o que gera lentidão na identificação de ocorrências
+e limita a capacidade de resposta das autoridades competentes. Isso faz com que
+muitos danos ambientais sejam percebidos apenas quando já se tornaram
+irreversíveis, acarretando prejuízos não apenas ambientais, mas também sociais e
+econômicos.
+Nesse cenário, torna-se evidente a necessidade de tecnologias inovadoras
+capazes de integrar dados de diferentes fontes — como imagens de satélite,
+sensores ambientais e registros comunitários — para fornecer informações
+rápidas, acessíveis e precisas. O desenvolvimento de uma plataforma de
+monitoramento em tempo real para a Serra do Curral surge como uma solução
+estratégica, capaz de apoiar órgãos governamentais, ONGs e a própria sociedade
+civil no combate às ameaças florestais. Além de reduzir custos de fiscalização e
+aumentar a eficiência das ações, a ferramenta tem potencial de criar um impacto
+positivo duradouro, promovendo a preservação ambiental e contribuindo para a
+sustentabilidade regional.
 
 ## Problema
 
