@@ -46,6 +46,8 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 
 
+[G1-monitoramento-florestas (2).pdf](https://github.com/user-attachments/files/22198177/G1-monitoramento-florestas.2.pdf)
+
 
 
 
