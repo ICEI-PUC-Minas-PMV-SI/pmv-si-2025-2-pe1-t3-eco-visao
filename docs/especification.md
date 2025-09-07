@@ -35,6 +35,18 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 > - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
 > - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
 > - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+>
+> - <img width="840" height="1189" alt="image" src="https://github.com/user-attachments/assets/91007c30-f4da-4458-9d65-b2aa5c178dea" />
+
+<img width="868" height="1151" alt="image" src="https://github.com/user-attachments/assets/4129f70f-1150-4012-9a4b-1c4072183e1a" />
+
+<img width="873" height="1144" alt="image" src="https://github.com/user-attachments/assets/2b3acd8c-0a27-4324-ba1d-14c2842da74e" />
+
+<img width="683" height="1463" alt="image" src="https://github.com/user-attachments/assets/f80b0669-7d11-42d3-aee3-1237ec729930" />
+
+
+
+
 
 ## Requisitos
 
