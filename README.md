@@ -1,4 +1,4 @@
-# Título do Projeto
+# ECO VISÂO
 
 `CURSO: Sistemas de Informação`
 
@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Estamos desenvolvendo um sistema de monitoramento em tempo real, utilizando imagens de satélite, para identificar e acompanhar problemas ambientais na Serra do Cipó, como queimadas, desmatamento e exploração irregular de recursos naturais. A proposta é fornecer informações rápidas e acessíveis para bombeiros, órgãos públicos, pesquisadores, profissionais da área ambiental e moradores locais, ajudando na prevenção, fiscalização e preservação da biodiversidade da região.
 
 ## Integrantes
 
