@@ -7,20 +7,16 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
 
 ## Personas
+<img width="840" height="1189" alt="image" src="https://github.com/user-attachments/assets/99bbc581-e2e2-43eb-983a-ff6167130ea6" />
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+<img width="810" height="1233" alt="image" src="https://github.com/user-attachments/assets/2eaa3fa5-7a58-46f7-bbaa-8a132bb95f59" />
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+<img width="840" height="1189" alt="image" src="https://github.com/user-attachments/assets/46f9d6b3-04d6-455f-bf14-95ec0f129af4" />
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+<img width="840" height="1189" alt="image" src="https://github.com/user-attachments/assets/d09a04bd-d292-47dc-b52f-29015861a90f" />
+
+<img width="943" height="1059" alt="image" src="https://github.com/user-attachments/assets/f9a217d0-64eb-4a0a-9fb4-bd015001bc44" />
+
 
 ## Histórias de Usuários
 
