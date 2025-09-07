@@ -42,7 +42,8 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 <img width="873" height="1144" alt="image" src="https://github.com/user-attachments/assets/2b3acd8c-0a27-4324-ba1d-14c2842da74e" />
 
-<img width="683" height="1463" alt="image" src="https://github.com/user-attachments/assets/f80b0669-7d11-42d3-aee3-1237ec729930" />
+<img width="765" height="1307" alt="image" src="https://github.com/user-attachments/assets/b21d73a5-9331-4e87-b255-977156a388b3" />
+
 
 
 
