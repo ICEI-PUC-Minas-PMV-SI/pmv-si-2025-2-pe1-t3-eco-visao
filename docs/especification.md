@@ -58,17 +58,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade | 
-|------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
-
+|------|-----------------------------------------|----|
+|RF-001| O sistema deve permitir que o usuário crie seu login | ALTA |  
+|RF-002| O sistema deve permitir que o usuário gerencie seu login | ALTA |
+|RF-003| O sistema deve permitir a emissão de um relatório no fim do mês  | MÉDIA |
+|RF-004| O sistema deve permitir o usuario fazer uma denuncia | MÉDIA |
+|RF-005| O sistema deve permitir a emissão de um relatório no fim do mês  | MÉDIA |
+|RF-006| O sistema deve permitir a emissão de um relatório no fim do mês  | MÉDIA |
+|RF-007| O sistema deve permitir a emissão de um relatório no fim do mês  | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema tem que ser responsivel | ALTA | 
+|RNF-002| O sistema deve processar requisições do usuário em no máximo 3s |  MÉDIA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
