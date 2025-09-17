@@ -62,10 +62,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| O sistema deve permitir que o usuário crie seu login | ALTA |  
 |RF-002| O sistema deve permitir que o usuário gerencie seu login | ALTA |
 |RF-003| O sistema deve permitir a emissão de um relatório no fim do mês  | MÉDIA |
-|RF-004| O sistema deve permitir o usuario fazer uma denuncia | MÉDIA |
-|RF-005| O sistema deve permitir a emissão de um relatório no fim do mês  | MÉDIA |
-|RF-006| O sistema deve permitir a emissão de um relatório no fim do mês  | MÉDIA |
-|RF-007| O sistema deve permitir a emissão de um relatório no fim do mês  | MÉDIA |
+|RF-004| O sistema deve permitir o usuario fazer uma denuncia | ALTA |
+|RF-005| O sistema deve ter um mapa interativo  | MÉDIA |
+|RF-006| O sistema deve ter um histórico de ocorrências ambientais | BAIXA |
+|RF-007| O sistema deve ter uma seção com conteúdos informativos e educativos sobre o desmatamento | MÉDIA |
 
 ### Requisitos não Funcionais
 
@@ -73,6 +73,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema tem que ser responsivel | ALTA | 
 |RNF-002| O sistema deve processar requisições do usuário em no máximo 3s |  MÉDIA | 
+|RNF-003| O sistema tem que ser multiplataforma | ALTA |
+|RNF-004| O sistema tem que ter uma boa UX | ALTA |
+|RNF-005| O sistema deve ter textos legíveis com contraste adequado | ALTA |
+
+
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
