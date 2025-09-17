@@ -1,4 +1,4 @@
-# ECO VISÂO
+# ECO VISÃO
 
 `CURSO: Sistemas de Informação`
 
