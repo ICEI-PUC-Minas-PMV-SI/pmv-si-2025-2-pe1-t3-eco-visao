@@ -76,6 +76,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003| O sistema tem que ser multiplataforma | ALTA |
 |RNF-004| O sistema tem que ter uma boa UX | ALTA |
 |RNF-005| O sistema deve ter textos legíveis com contraste adequado | ALTA |
+|RNF-006| O sistema deve ter textos legíveis com contraste adequado | ALTA |
+|RNF-007| O sistema deve ter textos legíveis com contraste adequado | ALTA |
 
 
 
