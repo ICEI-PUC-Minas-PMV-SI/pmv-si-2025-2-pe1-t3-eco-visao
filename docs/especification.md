@@ -71,7 +71,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema tem que ser responsivel | ALTA | 
+|RNF-001| O sistema tem que ser responsivo | ALTA | 
 |RNF-002| O sistema deve processar requisições do usuário em no máximo 3s |  MÉDIA | 
 |RNF-003| O sistema tem que ser multiplataforma | ALTA |
 |RNF-004| O sistema tem que ter uma boa UX | ALTA |
