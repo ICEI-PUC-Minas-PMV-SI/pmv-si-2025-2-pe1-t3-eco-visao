@@ -48,9 +48,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| O sistema deve permitir que o usuário gerencie seu login | ALTA |
 |RF-003| O sistema deve permitir a emissão de um relatório no fim do mês  | MÉDIA |
 |RF-004| O sistema deve permitir o usuario fazer uma denuncia | ALTA |
-|RF-005| O sistema deve ter um mapa interativo  | MÉDIA |
+|RF-005| O sistema deve ter um mapa interativo onde seja possivel colocar marcadores especificos para denunciar um ou mais problema em uma localização designada | MÉDIA |
 |RF-006| O sistema deve ter um histórico de ocorrências ambientais | BAIXA |
 |RF-007| O sistema deve ter uma seção com conteúdos informativos e educativos sobre o desmatamento | MÉDIA |
+|RF-008| O sistema deve um banco de dados com CRUD  | ALTA |
 
 ### Requisitos não Funcionais
 
