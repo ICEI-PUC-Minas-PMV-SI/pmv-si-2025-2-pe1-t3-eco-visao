@@ -19,20 +19,152 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface e é fundamental sempre relacionar cada wireframe com o(s) requisito(s) que ele atende.
+Wireframes — Projeto "Radar Florestal" 
 
-### Exemplo
+1) Tela: Página Inicial 
 
-A tela inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade. Nesta tela, são apresentados os seguintes requisitos
+Estrutura: 
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Logotipo centralizado com breve resumo do sistema Radar Florestal 
+
+Botões de navegação para cada uma das seções principais do site 
+
+Botão destacado para acessar a tela de Login 
+
+Seção com layout dividido: imagem à esquerda e resumo explicativo do projeto à direita 
+
+Faixa com fundo verde claro exibindo 3 cards destacando os benefícios do uso do sistema 
+
+Faixa com fundo branco exibindo 3 cards com depoimentos/recomendações de usuários 
+
+Área de contato com fundo verde claro, contendo 3 boxes para preenchimento de informações (nome, email, mensagem) para entrar em contato conosco 
 
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+
+2) Tela: Login 
+
+Estrutura: 
+
+Cartão centralizado com: 
+
+Logotipo/ícone no topo 
+
+Título e subtítulo explicativos 
+
+Campos de entrada: Email, Senha 
+
+Botão principal: Entrar 
+
+Link: "Esqueci minha senha" 
+
+Bloco com credenciais de demonstração 
+
+Link para retornar à home 
+
+Feedback visual: 
+
+Mensagem de erro exibida em caso de credenciais inválidas 
+
+ 
+
+3) Tela: Recuperar Senha 
+
+Estrutura: 
+
+Cartão centralizado com: 
+
+Logotipo/ícone 
+
+Título: "Recuperar Senha" 
+
+Subtítulo explicativo 
+
+Campo de entrada: Email 
+
+Botão: Enviar Recuperação 
+
+Feedback visual: 
+
+Área de sucesso (ícone + mensagem de confirmação), exibida após envio 
+
+Link para retornar à tela de Login 
+
+ 
+
+4) Tela: Dashboard 
+
+Estrutura: 
+
+Sidebar (esquerda) com gradiente verde: 
+
+Logotipo + saudação ao usuário 
+
+Botões para as seções: Desmatamento, Queimadas, Mineração, Fauna 
+
+Botões: Perfil, Sair 
+
+Header (topo): 
+
+Título da página 
+
+Email do usuário e botão de perfil 
+
+Área Principal (conteúdo): 
+
+Cabeçalho da seção ativa (título + descrição) 
+
+Cards de estatísticas ( 
+
+Mapa da região  
+
+Bloco: “Alertas da Comunidade” com listagem de alertas 
+
+Bloco: “Meus Alertas” com botão Novo Alerta e listagem dinâmica (editar/excluir) 
+
+Modal: para criar, editar ou excluir alertas (com confirmação) 
+
+ 
+
+5) Tela: Editar Perfil 
+
+Estrutura: 
+
+Header com botão para retornar ao Dashboard 
+
+Cartão centralizado com: 
+
+Avatar 
+
+Seção: Informações Pessoais (Nome, Email) 
+
+Seção: Alterar Senha (Senha Atual, Nova Senha, Confirmar Nova Senha) 
+
+Botões de ação: Salvar e Cancelar 
+
+Feedback visual: 
+
+Mensagem de sucesso exibida após confirmação 
+
+ 
+
+Observações Gerais 
+
+Consistência visual: todos os cartões e faixas seguem padrão de fundo (branco ou verde claro) e bordas arredondadas  
+
+Responsividade: estrutura adaptada a dispositivos móveis. 
+
+Feedback claro: Mensagens de sucesso/erro. 
+
+Fluxos principais atendidos: 
+
+Entrar no sistema (Login) 
+
+Recuperar senha 
+
+Acessar informações de monitoramento e alertas (Dashboard) 
+
+Criar e gerenciar alertas 
+
+Editar informações de perfil 
+
+Página inicial apresentando sistema, benefícios, depoimentos e contato 
