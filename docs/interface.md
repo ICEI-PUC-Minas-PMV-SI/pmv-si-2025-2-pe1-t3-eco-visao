@@ -7,8 +7,8 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
+<img width="1207" height="848" alt="image" src="https://github.com/user-attachments/assets/a80434f6-04f0-43d3-89c4-5ef6b5122dfd" />
 
-<img width="1073" height="778" alt="Opera Instantâneo_2025-09-26_165636_www figma com" src="https://github.com/user-attachments/assets/3706bcb2-b179-4b47-bd1d-aafc46e284ae" />
 
 <img width="359" height="666" alt="image" src="https://github.com/user-attachments/assets/6ac07b7c-7e28-4798-b97e-9ac22dd3e267" />
 
