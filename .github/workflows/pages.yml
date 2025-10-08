@@ -1,9 +1,8 @@
-name: Deploy GitHub Pages
+name: Deploy GitHub Pages (from src)
 
 on:
   push:
-    branches:
-      - main
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -11,12 +10,17 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout código
         uses: actions/checkout@v4
@@ -24,10 +28,10 @@ jobs:
       - name: Configura GitHub Pages
         uses: actions/configure-pages@v4
 
-      - name: Faz upload da pasta src
+      - name: Faz upload do conteúdo da pasta src
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './src'
+          path: src 
 
       - name: Publica no GitHub Pages
         id: deployment
