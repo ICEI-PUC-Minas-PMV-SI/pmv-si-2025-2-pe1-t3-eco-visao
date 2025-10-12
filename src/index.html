@@ -6,24 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
     <style>
         * {
             text-decoration: none;
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #1f2937;
+            padding: 0%;
+            margin: 0%;
         }
 
         header {
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin: 0;
-            padding: 0;
+            padding-bottom: 5px;
         }
 
-        body, html {
+        body,
+        html {
             margin: 0;
         }
 
         .navbar {
-            padding: 15px 30px;
+            padding: 13px 30px;
         }
 
         .navdiv {
@@ -33,22 +37,21 @@
         }
 
         .logo a {
-            font-size: 23px;
+            font-size: 20px;
             font-weight: bold;
             color: #16a34a;
-            padding-left: 30px;
+            padding-left: 200px;
         }
 
         .navdiv ul {
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 40px;
+            gap: 35px;
             list-style: none;
             margin: 0;
             padding: 0;
-            flex: 1;
-            font-size: 19px;
+            font-size: 17px;
         }
 
         .navdiv ul li:hover {
@@ -57,21 +60,69 @@
         }
 
         button {
-            background-color: #16a34a;
-            border-radius: 30px;
             border: none;
             color: white;
-            font-size: 18px;
-            width: 100px;
-            padding: 13px;
-            margin-right: 20px;
             cursor: pointer;
+            background-color: #16a34a;
+        }
+
+        .botaoEntrar {
+            border-radius: 30px;
+            font-size: 17px;
+            width: 90px;
+            padding: 10px;
+            margin-right: 200px;
+        }
+
+        .botaoSistema {
+            border-radius: 30px;
+            font-size: 15px;
+            font-weight: 550;
+            width: 190px;
+            padding: 19px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3)
         }
 
         button:hover {
             background-color: #15803d;
         }
 
+        #hero {
+            box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.3);
+            background-color: #f9fafb;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 110px;
+        }
+
+        #hero_h1 {
+            font-size: 60px;
+            padding-top: 30px;
+            padding-bottom: 7px;
+        }
+
+        #hero_h2 {
+            color: #29b95e;
+            font-weight: 400;
+            font-size: 30px;
+        }
+
+        #hero_p {
+            padding: 35px 0px;
+            font-size: 20px;
+        }
+
+        #hero_p2 {
+            color: #16a34a;
+            font-weight: 600;
+        }
+
+        #radarIcon {
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+        }
 
 
     </style>
@@ -95,11 +146,48 @@
                     <li>Contato</li>
                 </ul>
 
-                <button>Entrar</button>
+                <button class="botaoEntrar">Entrar</button>
             </div>
         </nav>
 
     </header>
+    <section id="hero">
+        <div>
+            <img src="assets/img/faviconn.svg" width="80px" alt="RF_Logo">
+            <div>
+                <div>
+                    <h1 id="hero_h1">
+                        Radar Florestal
+                    </h1>
+                    <h2 id="hero_h2">
+                        Monitoramento Ambiental Inteligente
+                    </h2>
+                </div>
+                <div id="hero_p">
+                    <p id="hero_p1">
+                        Sistema avançado de acompanhamento em tempo real de dados ambientais:
+                    </p>
+                    <p id="hero_p2">desmatamento, queimadas,
+                        mineração e fauna.
+                    </p>
+                </div>
+                <button class="botaoSistema">Acessar Sistema</button>
+            </div>
+    </section>
+
+    <section id="sobre">
+        <img id="radarIcon" src="assets/img/bg.png" width="750px" alt="RF_bg">
+
+            <h1 id="sobre_h1">
+                Sobre o Radar Florestal
+            </h1>
+            <p id="sobre_p">
+                O Radar Florestal é uma solução inovadora que integra dados ambientais em tempo real para auxiliar
+                governos, ONGs e empresas a tomar decisões mais sustentáveis. Nosso objetivo é proteger o futuro do
+                planeta com tecnologia de ponta e informações confiáveis.
+            </p>
+
+    </section>
 </body>
 
 
