@@ -4,16 +4,72 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Login - Radar Florestal</title>
+
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+
     <link rel="icon" type="image/x-icon" href="assets/img/faviconn.svg">
-    <link rel="stylesheet" href="assets/css/login.css">
+
+    <style>
+      .bg-rf-panel {
+        position: relative;
+        overflow: hidden;
+        isolation: isolate;
+        background: linear-gradient(to bottom, #16a34a, #15803d);
+      }
+
+      .bg-rf-panel::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image:
+          radial-gradient(rgba(255, 255, 255, .08) 1px, transparent 1px),
+          radial-gradient(rgba(255, 255, 255, .06) 1px, transparent 1px);
+        background-position: 0 0, 20px 20px;
+        background-size: 40px 40px, 40px 40px;
+        pointer-events: none;
+      }
+
+      .bg-rf-panel::after {
+        content: "";
+        position: absolute;
+        inset: -20% -10% auto -10%;
+        height: 60%;
+        background: linear-gradient(120deg, rgba(255,255,255,.18), rgba(255,255,255,0));
+        filter: blur(40px);
+        transform: rotate(-6deg);
+        pointer-events: none;
+      }
+
+      .rf-card {
+        border: 1px solid rgba(22, 163, 74, 0.08);
+        animation: rf-fade-up 0.35s ease-out both;
+      }
+
+      @keyframes rf-fade-up {
+        from { opacity: 0; transform: translateY(8px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      @keyframes rf-pop {
+        from { transform: scale(.98); opacity: .6; }
+        to { transform: scale(1); opacity: 1; }
+      }
+      #formAlert {
+        animation: rf-pop .22s ease-out both;
+      }
+    </style>
   </head>
+
   <body class="min-h-screen bg-gray-50">
     <main class="grid min-h-screen md:grid-cols-2">
-      <!-- Lateral brand -->
-      <section class="hidden md:flex items-center justify-center bg-gradient-to-b from-green-600 to-green-700 p-8">
-        <div class="max-w-md text-white">
+
+      <section class="hidden md:flex items-center justify-center bg-rf-panel p-8 text-white">
+        <div class="max-w-md relative z-10">
           <h1 class="text-3xl font-bold">Radar Florestal</h1>
           <p class="text-white/80 mt-3">
             Monitore desmatamento, queimadas, mineração e fauna em tempo real.
@@ -26,9 +82,8 @@
         </div>
       </section>
 
-      <!-- Card de login -->
       <section class="flex items-center justify-center p-6">
-        <div class="w-full max-w-md bg-white rounded-2xl shadow-lg p-8">
+        <div class="w-full max-w-md bg-white rounded-2xl shadow-lg rf-card p-8 transition-all hover:shadow-2xl hover:border-green-700/20">
           <div class="flex items-center justify-between">
             <h2 class="text-2xl font-semibold text-gray-800">Entrar</h2>
             <a href="./" class="text-green-700 hover:underline font-medium">Radar Florestal</a>
@@ -38,7 +93,6 @@
             Acesse sua conta para gerenciar seus alertas.
           </p>
 
-          <!-- Alerta global -->
           <div id="formAlert" class="hidden mt-4 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-red-700 text-sm" role="alert" aria-live="polite"></div>
 
           <form id="loginForm" class="mt-6 space-y-4" novalidate autocomplete="on">
@@ -53,12 +107,10 @@
                 class="mt-1 w-full rounded-lg border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-600"
                 placeholder="seuemail@exemplo.com"
                 required
-                aria-describedby="emailHelp emailError"
               />
-              <p id="emailHelp" class="mt-1 text-xs text-gray-500">Use um e-mail válido.</p>
+              <p class="mt-1 text-xs text-gray-500">Use um e-mail válido.</p>
               <p id="emailError" class="mt-1 text-xs text-red-600 hidden"></p>
             </div>
-
             <div>
               <label for="password" class="block text-sm font-medium text-gray-700">Senha</label>
               <div class="relative">
@@ -70,7 +122,6 @@
                   class="mt-1 w-full rounded-lg border border-gray-300 px-3 py-2 pr-10 focus:outline-none focus:ring-2 focus:ring-green-600"
                   placeholder="••••••••"
                   required
-                  aria-describedby="passwordError"
                   minlength="6"
                 />
                 <button type="button" id="togglePassword" class="absolute inset-y-0 right-0 px-3 text-gray-500" aria-label="Mostrar/ocultar senha">
@@ -91,7 +142,7 @@
             <button
               id="submitBtn"
               type="submit"
-              class="w-full rounded-lg bg-green-700 text-white py-2.5 font-medium hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-700 flex items-center justify-center gap-2"
+              class="w-full rounded-lg bg-green-700 text-white py-2.5 font-medium hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-700 flex items-center justify-center gap-2 transition"
             >
               <span>Entrar</span>
             </button>
@@ -106,10 +157,16 @@
     </main>
 
     <script>
-      // Config padrão para redireciono pós-login (ajuste se quiser)
-      window.RF_REDIRECT_URL = window.RF_REDIRECT_URL || "meus-alertas.html";
+      window.RF_REDIRECT_URL = "meus-alertas.html";
+
+      document.getElementById("togglePassword").addEventListener("click", () => {
+        const password = document.getElementById("password");
+        const icon = document.querySelector("#togglePassword i");
+        const isHidden = password.type === "password";
+        password.type = isHidden ? "text" : "password";
+        icon.classList.toggle("fa-eye");
+        icon.classList.toggle("fa-eye-slash");
+      });
     </script>
-    <script src="assets/js/authService.js"></script>
-    <script src="assets/js/login.js"></script>
   </body>
 </html>
