@@ -9,6 +9,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="icon" type="image/x-icon" href="assets/img/faviconn.svg" />
   </head>
   <body class="min-h-screen bg-gray-50 flex">
@@ -159,17 +160,16 @@
             </div>
           </div>
         </div>
+
         <section class="space-y-6">
-          <div class="bg-white rounded-xl shadow p-6">
-            <h2 class="text-lg font-semibold text-gray-800 mb-4">
-              Mapa da Região
-            </h2>
-            <div
-              class="w-full h-[400px] bg-gray-200 rounded-lg flex items-center justify-center"
-            >
-              <span class="text-gray-500">Mapa</span>
-            </div>
+          <div class="bg-white shadow p-3">
+            <h2 class="text-md font-semibold text-gray-700 mb-2">Mapa</h2>
+            <iframe
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-43.9311%2C-19.9779%2C-43.9111%2C-19.9579&amp;layer=mapnik&amp;marker=-19.9679%2C-43.9211"
+              style="border:1px solid #ccc; width:90%; height:350px;"
+            ></iframe>
           </div>
+
           <div class="bg-white rounded-xl shadow p-6">
             <div class="flex justify-between items-center mb-4">
               <h2 class="text-lg font-semibold text-gray-800">
@@ -209,7 +209,7 @@
               >
                 <div class="flex items-center gap-3">
                   <i class="fas fa-hippo text-blue-500"></i>
-                  <span>Avistamento de animas em risco</span>
+                  <span>Avistamento de animais em risco</span>
                 </div>
                 <span class="text-sm text-gray-500">18/09/2025</span>
               </li>
