@@ -1,9 +1,9 @@
-name: Deploy site from /src to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
-  workflow_dispatch:
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -20,24 +20,18 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repositório
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Mostrar estrutura de pastas (debug)
-        run: |
-          echo "Exibindo estrutura..."
-          ls -R
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
-      - name: Configurar GitHub Pages
-        uses: actions/configure-pages@v4
-
-      - name: Enviar conteúdo da pasta src
+      - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./src
 
-      - name: Publicar no GitHub Pages
+      - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
