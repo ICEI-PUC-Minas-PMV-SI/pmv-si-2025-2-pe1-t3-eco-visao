@@ -59,7 +59,7 @@
               <i class="fas fa-hippo w-5"></i> Fauna
             </button>
           </li>
-                    <li class="pt-3 border-t border-white/20"></li>
+          <li class="pt-3 border-t border-white/20"></li>
 
           <li>
             <a
@@ -103,7 +103,9 @@
       </header>
       <div id="forumContainer" class="flex-1 p-6 overflow-auto space-y-6">
         <section class="bg-white p-5 rounded-xl shadow border border-gray-200">
-          <h2 class="text-lg font-semibold text-gray-800 mb-3">Criar novo tópico</h2>
+          <h2 class="text-lg font-semibold text-gray-800 mb-3">
+            Criar novo tópico
+          </h2>
           <input
             id="postTitle"
             type="text"
@@ -123,7 +125,80 @@
             <i class="fas fa-paper-plane"></i> Publicar
           </button>
         </section>
-        <section id="topicsList" class="space-y-4"></section>
+        <section id="topicsList" class="space-y-4">
+          <div
+            class="bg-white border border-gray-200 rounded-lg p-4 shadow hover:shadow-md transition flex justify-between items-start"
+          >
+            <div>
+              <h3 class="text-lg font-semibold text-gray-800 mb-1">
+                Aumento de queimadas na Serra do Cipó
+              </h3>
+              <p class="text-gray-700">
+                Alguém mais percebeu um aumento nas queimadas nas últimas
+                semanas? Estou coletando dados de satélite para comparar.
+              </p>
+              <div class="text-sm text-gray-400 mt-2">
+                <i class="far fa-clock"></i> 20/09/2025, 14:35:00
+              </div>
+            </div>
+            <div class="flex gap-2 ml-4">
+              <button class="editBtn text-blue-600 hover:text-blue-800">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="deleteBtn text-red-600 hover:text-red-800">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="bg-white border border-gray-200 rounded-lg p-4 shadow hover:shadow-md transition flex justify-between items-start"
+          >
+            <div>
+              <h3 class="text-lg font-semibold text-gray-800 mb-1">
+                Monitoramento de fauna silvestre
+              </h3>
+              <p class="text-gray-700">
+                Estou desenvolvendo um projeto de armadilhas fotográficas.
+                Alguém tem interesse em colaborar com análise de imagens
+              </p>
+              <div class="text-sm text-gray-400 mt-2">
+                <i class="far fa-clock"></i> 25/09/2025, 10:12:00
+              </div>
+            </div>
+            <div class="flex gap-2 ml-4">
+              <button class="editBtn text-blue-600 hover:text-blue-800">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="deleteBtn text-red-600 hover:text-red-800">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="bg-white border border-gray-200 rounded-lg p-4 shadow hover:shadow-md transition flex justify-between items-start"
+          >
+            <div>
+              <h3 class="text-lg font-semibold text-gray-800 mb-1">
+                Denúncia de desmatamento irregular
+              </h3>
+              <p class="text-gray-700">
+                Há uma área próxima à trilha da Usina Velha que parece estar
+                sendo desmatada. Alguém confirma?
+              </p>
+              <div class="text-sm text-gray-400 mt-2">
+                <i class="far fa-clock"></i> 30/09/2025, 08:47:00
+              </div>
+            </div>
+            <div class="flex gap-2 ml-4">
+              <button class="editBtn text-blue-600 hover:text-blue-800">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button class="deleteBtn text-red-600 hover:text-red-800">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   </body>
