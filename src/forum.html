@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fórum - Radar Florestal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/img/faviconn.svg" />
+  </head>
+  <body class="min-h-screen bg-gray-50 flex">
+    <aside
+      id="sidebar"
+      class="fixed lg:sticky top-0 left-0 h-screen w-64 bg-gradient-to-b from-green-600 to-green-700 z-50 transform -translate-x-full lg:translate-x-0 transition-transform duration-300"
+    >
+      <div class="p-6 border-b border-green-400/20">
+        <div class="flex items-center justify-between">
+          <h2 class="text-xl font-bold text-white">Radar Florestal</h2>
+          <button id="closeSidebar" class="lg:hidden text-white">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <p id="userName" class="text-white/80 text-sm mt-2">Olá, Usuário</p>
+      </div>
+      <nav class="flex-1 p-6">
+        <ul class="space-y-2" id="menuItems">
+          <li>
+            <button
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left text-white/70 hover:bg-white/10"
+              data-section="desmatamento"
+            >
+              <i class="fas fa-chart-bar w-5"></i> Desmatamento
+            </button>
+          </li>
+          <li>
+            <button
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left text-white/70 hover:bg-white/10"
+              data-section="queimadas"
+            >
+              <i class="fas fa-fire w-5"></i> Queimadas
+            </button>
+          </li>
+          <li>
+            <button
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left text-white/70 hover:bg-white/10"
+              data-section="mineracao"
+            >
+              <i class="fas fa-mountain w-5"></i> Mineração
+            </button>
+          </li>
+          <li>
+            <button
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left text-white/70 hover:bg-white/10"
+              data-section="fauna"
+            >
+              <i class="fas fa-hippo w-5"></i> Fauna
+            </button>
+          </li>
+                    <li class="pt-3 border-t border-white/20"></li>
+
+          <li>
+            <a
+              href="forum.html"
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:bg-white/10"
+            >
+              <i class="fas fa-comments w-5"></i> Fórum
+            </a>
+          </li>
+
+          <li>
+            <button
+              id="meusAlertasBtn"
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left text-white/70 hover:bg-white/10"
+            >
+              <i class="fas fa-bell w-5"></i> Meus Alertas
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div class="p-6 border-t border-green-400/20 space-y-2">
+        <button
+          id="profileBtn"
+          class="w-full flex items-center gap-2 bg-transparent border border-white/20 text-white hover:bg-white/10 px-3 py-2 rounded-lg"
+        >
+          <i class="fas fa-user"></i> Perfil
+        </button>
+        <button
+          id="logoutBtn"
+          class="w-full flex items-center gap-2 bg-transparent border border-white/20 text-white hover:bg-white/10 px-3 py-2 rounded-lg"
+        >
+          <i class="fas fa-sign-out-alt"></i> Sair
+        </button>
+      </div>
+    </aside>
+    
+  </body>
+</html>
