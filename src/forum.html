@@ -101,7 +101,30 @@
       >
         <h1 class="text-xl font-semibold text-gray-800">Fórum da Comunidade</h1>
       </header>
-     
+      <div id="forumContainer" class="flex-1 p-6 overflow-auto space-y-6">
+        <section class="bg-white p-5 rounded-xl shadow border border-gray-200">
+          <h2 class="text-lg font-semibold text-gray-800 mb-3">Criar novo tópico</h2>
+          <input
+            id="postTitle"
+            type="text"
+            placeholder="Título do tópico"
+            class="w-full border border-gray-300 rounded-lg px-3 py-2 mb-3 focus:outline-none focus:ring-2 focus:ring-green-600"
+          />
+          <textarea
+            id="postContent"
+            rows="4"
+            placeholder="Descreva seu tópico..."
+            class="w-full border border-gray-300 rounded-lg px-3 py-2 mb-3 focus:outline-none focus:ring-2 focus:ring-green-600"
+          ></textarea>
+          <button
+            id="confirmPost"
+            class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700"
+          >
+            <i class="fas fa-paper-plane"></i> Publicar
+          </button>
+        </section>
+        <section id="topicsList" class="space-y-4"></section>
+      </div>
     </main>
   </body>
 </html>
