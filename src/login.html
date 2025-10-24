@@ -1,164 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Login - Radar Florestal</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      rel="stylesheet"
-    />
-
-
-    <link rel="icon" type="image/x-icon" href="assets/img/faviconn.svg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+    <link rel="icon" type="image/x-icon" href="assets/img/faviconn.svg"/>
 
     <style>
-      .bg-rf-panel {
-        position: relative;
-        overflow: hidden;
-        isolation: isolate;
-        background: linear-gradient(to bottom, #16a34a, #15803d);
-      }
-
-      .bg-rf-panel::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background-image:
-          radial-gradient(rgba(255, 255, 255, .08) 1px, transparent 1px),
-          radial-gradient(rgba(255, 255, 255, .06) 1px, transparent 1px);
-        background-position: 0 0, 20px 20px;
-        background-size: 40px 40px, 40px 40px;
-        pointer-events: none;
-      }
-
-      .bg-rf-panel::after {
-        content: "";
-        position: absolute;
-        inset: -20% -10% auto -10%;
-        height: 60%;
-        background: linear-gradient(120deg, rgba(255,255,255,.18), rgba(255,255,255,0));
-        filter: blur(40px);
-        transform: rotate(-6deg);
-        pointer-events: none;
-      }
-
-      .rf-card {
-        border: 1px solid rgba(22, 163, 74, 0.08);
-        animation: rf-fade-up 0.35s ease-out both;
-      }
-
-      @keyframes rf-fade-up {
-        from { opacity: 0; transform: translateY(8px); }
-        to { opacity: 1; transform: translateY(0); }
-      }
-
-      @keyframes rf-pop {
-        from { transform: scale(.98); opacity: .6; }
-        to { transform: scale(1); opacity: 1; }
-      }
-      #formAlert {
-        animation: rf-pop .22s ease-out both;
-      }
+      .rf-card{ border:1px solid rgba(22,163,74,.08); animation:rf-fade-up .35s ease-out both }
+      @keyframes rf-fade-up{ from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+      @keyframes rf-pop{ from{transform:scale(.98);opacity:.6} to{transform:scale(1);opacity:1} }
+      #formAlert{ animation:rf-pop .22s ease-out both }
     </style>
   </head>
 
-  <body class="min-h-screen bg-gray-50">
-    <main class="grid min-h-screen md:grid-cols-2">
+  <body
+    class="min-h-screen min-h-[100svh]"
+    style="
+      background-image: url('https://h2ahubagroambiental.com.br/wp-content/uploads/2023/11/pinheiros-lindos-nas-montanhas-1.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-color: #0b3d2e;
+    "
+  >
+    <!-- Overlay escuro global (gradiente) -->
+    <div class="pointer-events-none fixed inset-0 z-[10] bg-gradient-to-b from-black/65 via-black/50 to-black/65"></div>
 
-      <section class="hidden md:flex items-center justify-center bg-rf-panel p-8 text-white">
-        <div class="max-w-md relative z-10">
-          <h1 class="text-3xl font-bold">Radar Florestal</h1>
-          <p class="text-white/80 mt-3">
-            Monitore desmatamento, queimadas, mineração e fauna em tempo real.
-          </p>
-          <ul class="mt-6 space-y-3 text-white/90">
-            <li class="flex items-center gap-2"><i class="fa-solid fa-bell"></i> Alertas em tempo real</li>
-            <li class="flex items-center gap-2"><i class="fa-solid fa-chart-line"></i> Indicadores e dashboards</li>
-            <li class="flex items-center gap-2"><i class="fa-solid fa-leaf"></i> Conservação ambiental</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="flex items-center justify-center p-6">
-        <div class="w-full max-w-md bg-white rounded-2xl shadow-lg rf-card p-8 transition-all hover:shadow-2xl hover:border-green-700/20">
-          <div class="flex items-center justify-between">
-            <h2 class="text-2xl font-semibold text-gray-800">Entrar</h2>
-            <a href="./" class="text-green-700 hover:underline font-medium">Radar Florestal</a>
+    <!-- Conteúdo centralizado -->
+    <main class="relative z-[20] grid min-h-screen min-h-[100svh] place-items-center p-6">
+      <div class="grid w-full max-w-6xl gap-10 md:grid-cols-2 items-center">
+        <!-- Coluna Esquerda -->
+        <section class="hidden md:flex items-center justify-center p-6 text-white">
+          <div class="max-w-md text-center">
+            <h1 class="text-3xl font-bold drop-shadow">Radar Florestal</h1>
+            <p class="text-white/90 mt-3 drop-shadow">
+              Monitore desmatamento, queimadas, mineração e fauna em tempo real.
+            </p>
+            <ul class="mt-6 space-y-3 text-white/90">
+              <li class="flex items-center justify-center gap-2"><i class="fa-solid fa-bell"></i> Alertas em tempo real</li>
+              <li class="flex items-center justify-center gap-2"><i class="fa-solid fa-chart-line"></i> Indicadores e dashboards</li>
+              <li class="flex items-center justify-center gap-2"><i class="fa-solid fa-leaf"></i> Conservação ambiental</li>
+            </ul>
           </div>
+        </section>
 
-          <p class="text-gray-500 text-sm mt-1">
-            Acesse sua conta para gerenciar seus alertas.
-          </p>
-
-          <div id="formAlert" class="hidden mt-4 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-red-700 text-sm" role="alert" aria-live="polite"></div>
-
-          <form id="loginForm" class="mt-6 space-y-4" novalidate autocomplete="on">
-            <div>
-              <label for="email" class="block text-sm font-medium text-gray-700">E-mail</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                inputmode="email"
-                autocomplete="username"
-                class="mt-1 w-full rounded-lg border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-600"
-                placeholder="seuemail@exemplo.com"
-                required
-              />
-              <p class="mt-1 text-xs text-gray-500">Use um e-mail válido.</p>
-              <p id="emailError" class="mt-1 text-xs text-red-600 hidden"></p>
+        <!-- Coluna Direita: Card de Login -->
+        <section class="flex items-center justify-center w-full">
+          <div class="w-full max-w-md bg-white/95 backdrop-blur-sm rounded-2xl shadow-lg rf-card p-8 transition-all hover:shadow-2xl hover:border-green-700/20">
+            <div class="flex flex-col items-center gap-2 text-center">
+              <h2 class="text-2xl font-semibold text-gray-900">Entrar</h2>
+              <a href="./" class="text-green-700 hover:underline font-medium">Radar Florestal</a>
             </div>
-            <div>
-              <label for="password" class="block text-sm font-medium text-gray-700">Senha</label>
-              <div class="relative">
+
+            <p class="text-gray-700/90 text-sm mt-2 text-center">
+              Acesse sua conta para gerenciar seus alertas.
+            </p>
+
+            <div id="formAlert" class="hidden mt-4 rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-red-700 text-sm" role="alert" aria-live="polite"></div>
+
+            <form id="loginForm" class="mt-6 space-y-4" novalidate autocomplete="on">
+              <div>
+                <label for="email" class="block text-sm font-medium text-gray-800">E-mail</label>
                 <input
-                  type="password"
-                  id="password"
-                  name="password"
-                  autocomplete="current-password"
-                  class="mt-1 w-full rounded-lg border border-gray-300 px-3 py-2 pr-10 focus:outline-none focus:ring-2 focus:ring-green-600"
-                  placeholder="••••••••"
-                  required
-                  minlength="6"
+                  type="email" id="email" name="email" inputmode="email" autocomplete="username"
+                  class="mt-1 w-full rounded-lg border border-gray-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-green-600"
+                  placeholder="seuemail@exemplo.com" required
                 />
-                <button type="button" id="togglePassword" class="absolute inset-y-0 right-0 px-3 text-gray-500" aria-label="Mostrar/ocultar senha">
-                  <i class="fa-regular fa-eye"></i>
-                </button>
+                <p class="mt-1 text-xs text-gray-500">Use um e-mail válido.</p>
+                <p id="emailError" class="mt-1 text-xs text-red-600 hidden"></p>
               </div>
-              <p id="passwordError" class="mt-1 text-xs text-red-600 hidden"></p>
-            </div>
 
-            <div class="flex items-center justify-between">
-              <label class="inline-flex items-center gap-2 text-sm text-gray-700 cursor-pointer">
-                <input id="remember" name="remember" type="checkbox" class="rounded border-gray-300 text-green-700 focus:ring-green-600">
-                Lembrar-me
-              </label>
-              <a href="./recover-password.html" class="text-sm text-green-700 hover:underline">Esqueci minha senha</a>
-            </div>
+              <div>
+                <label for="password" class="block text-sm font-medium text-gray-800">Senha</label>
+                <div class="relative">
+                  <input
+                    type="password" id="password" name="password" autocomplete="current-password"
+                    class="mt-1 w-full rounded-lg border border-gray-300 px-3 py-2 pr-10 focus:outline-none focus:ring-2 focus:ring-green-600"
+                    placeholder="••••••••" required minlength="6"
+                  />
+                  <button type="button" id="togglePassword" class="absolute inset-y-0 right-0 px-3 text-gray-500" aria-label="Mostrar/ocultar senha">
+                    <i class="fa-regular fa-eye"></i>
+                  </button>
+                </div>
+                <p id="passwordError" class="mt-1 text-xs text-red-600 hidden"></p>
+              </div>
 
-            <button
-              id="submitBtn"
-              type="submit"
-              class="w-full rounded-lg bg-green-700 text-white py-2.5 font-medium hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-700 flex items-center justify-center gap-2 transition"
-            >
-              <span>Entrar</span>
-            </button>
-          </form>
+              <div class="flex items-center justify-between">
+                <label class="inline-flex items-center gap-2 text-sm text-gray-800 cursor-pointer">
+                  <input id="remember" name="remember" type="checkbox" class="rounded border-gray-300 text-green-700 focus:ring-green-600"/>
+                  Lembrar-me
+                </label>
+                <a href="./recover-password.html" class="text-sm text-green-700 hover:underline">Esqueci minha senha</a>
+              </div>
 
-          <p class="mt-6 text-center text-sm text-gray-600">
-            Não tem conta?
-            <a href="#" class="text-green-700 hover:underline font-medium">Fale com o administrador</a>
-          </p>
-        </div>
-      </section>
+              <button id="submitBtn" type="submit"
+                class="w-full rounded-lg bg-green-700 text-white py-2.5 font-medium hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-700 flex items-center justify-center gap-2 transition">
+                <span>Entrar</span>
+              </button>
+            </form>
+
+            <p class="mt-6 text-center text-sm text-gray-700">
+              Não tem conta?
+              <a href="#" class="text-green-700 hover:underline font-medium">Fale com o administrador</a>
+            </p>
+          </div>
+        </section>
+      </div>
     </main>
 
     <script>
-      window.RF_REDIRECT_URL = "meus-alertas.html";
-
+      // Toggle da senha
       document.getElementById("togglePassword").addEventListener("click", () => {
         const password = document.getElementById("password");
         const icon = document.querySelector("#togglePassword i");
