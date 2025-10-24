@@ -71,7 +71,7 @@
 
               <div class="space-y-2">
                 <label for="name" class="text-sm font-medium text-gray-700"
-                  >Nome Completo</label
+                  >Primeiro Nome</label
                 >
                 <div class="relative">
                   <i
@@ -79,8 +79,24 @@
                   ></i>
                   <input
                     type="text"
-                    id="name"
-                    placeholder="Seu nome completo"
+                    id="firstName"
+                    placeholder="Seu primeiro nome"
+                    class="w-full border border-gray-300 rounded-lg px-10 py-2 focus:ring-2 focus:ring-green-400 focus:outline-none"
+                  />
+                </div>
+              </div>
+              <div class="space-y-2">
+                <label for="name" class="text-sm font-medium text-gray-700"
+                  >Sobrenome</label
+                >
+                <div class="relative">
+                  <i
+                    class="fas fa-user absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+                  ></i>
+                  <input
+                    type="text"
+                    id="lastName"
+                    placeholder="Seu sobrenome"
                     class="w-full border border-gray-300 rounded-lg px-10 py-2 focus:ring-2 focus:ring-green-400 focus:outline-none"
                   />
                 </div>
@@ -104,23 +120,6 @@
                 </div>
               </div>
 
-              <div class="space-y-2 col-span-full">
-                <label for="endereco" class="text-sm font-medium text-gray-700"
-                  >Endereço</label
-                >
-                <div class="relative">
-                  <i
-                    class="fas fa-map-pin absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
-                  ></i>
-                  <input
-                    type="text"
-                    id="endereco"
-                    placeholder="Seu endereço completo"
-                    class="w-full border border-gray-300 rounded-lg px-10 py-2 focus:ring-2 focus:ring-green-400 focus:outline-none"
-                  />
-                </div>
-              </div>
-
               <div class="space-y-2">
                 <label for="cpf" class="text-sm font-medium text-gray-700"
                   >CPF</label
@@ -137,6 +136,25 @@
                   />
                 </div>
               </div>
+
+              <div class="space-y-2">
+                <label for="endereco" class="text-sm font-medium text-gray-700"
+                  >Endereço</label
+                >
+                <div class="relative">
+                  <i
+                    class="fas fa-map-pin absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+                  ></i>
+                  <input
+                    type="text"
+                    id="endereco"
+                    placeholder="Seu endereço completo"
+                    class="w-full border border-gray-300 rounded-lg px-10 py-2 focus:ring-2 focus:ring-green-400 focus:outline-none"
+                  />
+                </div>
+              </div>
+
+              
 
               <div class="space-y-2">
                 <label for="dataNascimento" class="text-sm font-medium text-gray-700"
