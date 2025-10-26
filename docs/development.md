@@ -25,10 +25,24 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Responsável | Artefato Criado |
-|------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+| ID     | Descrição do Requisito                                                                                                                       | Responsável | Artefato Criado          |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------------------|
+| **RF-001** | O sistema deve permitir que o usuário crie seu login                                                                                          | Ana Paula   | cadastro-noticia.html    |
+| **RF-002** | O sistema deve permitir que o usuário gerencie seu login                                                                                       | Ana Paula   | cadastro-noticia.html    |
+| **RF-003** | O sistema deve permitir a emissão de um relatório no fim do mês                                                                                | Ana Paula   | cadastro-noticia.html    |
+| **RF-004** | O sistema deve permitir que o usuário faça uma denúncia                                                                                        | Ana Paula   | cadastro-noticia.html    |
+| **RF-005** | O sistema deve ter um mapa interativo onde seja possível colocar marcadores específicos para denunciar um ou mais problemas em uma localização designada | Ana Paula   | cadastro-noticia.html    |
+| **RF-006** | O sistema deve ter um histórico de ocorrências ambientais                                                                                      | Ana Paula   | cadastro-noticia.html    |
+| **RF-007** | O sistema deve ter uma seção com conteúdos informativos e educativos sobre o desmatamento                                                      | Ana Paula   | cadastro-noticia.html    |
+| **RF-008** | O sistema deve ter um banco de dados com CRUD                                                                                                 | Ana Paula   | cadastro-noticia.html    |
+| **RF-009** | O sistema deve ser responsivo                                                                                                                 | Ana Paula   | cadastro-noticia.html    |
+| **RF-010** | O sistema deve seguir um padrão visual consistente de cores e fontes em todas as páginas                                                       | Ana Paula   | cadastro-noticia.html    |
+| **RF-011** | O sistema deve processar requisições do usuário em no máximo 3 segundos                                                                        | Ana Paula   | cadastro-noticia.html    |
+| **RF-012** | O sistema deve ser multiplataforma                                                                                                            | Ana Paula   | cadastro-noticia.html    |
+| **RF-013** | O sistema deve oferecer uma boa experiência de uso (UX)                                                                                       | Ana Paula   | cadastro-noticia.html    |
+| **RF-014** | O sistema deve ter textos legíveis e com contraste adequado                                                                                    | Ana Paula   | cadastro-noticia.html    |
+
+
 
 ## Descrição das estruturas:
 
