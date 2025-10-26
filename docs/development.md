@@ -42,8 +42,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | **RF-014** | O sistema deve ter textos legíveis e com contraste adequado                                                                                    | Todos   | Todas as paginas.html    |
 
 
-
 ## Descrição das estruturas:
+
+  | Campo | Tipo | Descrição |
+  |-------|------|-----------|
+  | `Primeiro nome` | Text | Primeiro nome do usuário |
+  | `Sobrenome` | Text | Sobrenome do usuário |
+  | `Email` | Email | Endereço de e-mail do usuário |
+  | `CPF` | Text | CPF do usuário (Cadastro de Pessoa Física) |
+  | `Endereço` | Text | Endereço completo do usuário |
+  | `Data de nascimento` | Date | Data de nascimento do usuário |
+  | `Senha atual` | Password | Senha atual do usuário (obrigatório apenas se alterar senha) |
+  | `Nova senha` | Password | Nova senha desejada (obrigatório apenas se alterar senha) |
+  | `Confirmar nova senha` | Password | Confirmação da nova senha (obrigatório apenas se alterar senha) |
 
 ## Notícia
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
