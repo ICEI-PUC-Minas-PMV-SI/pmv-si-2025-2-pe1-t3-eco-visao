@@ -27,19 +27,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 | ID     | Descrição do Requisito                                                                                                                       | Responsável | Artefato Criado          |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------------------|
-| **RF-001** | O sistema deve permitir que o usuário crie seu login                                                                                          | Vagner   | cadastro-noticia.html    |
-| **RF-002** | O sistema deve permitir que o usuário gerencie seu login                                                                                       | Matheus  | cadastro-noticia.html    |
-| **RF-003** | O sistema deve permitir a emissão de um relatório no fim do mês                                                                                | Geovanni e Vagner   | cadastro-noticia.html    |
-| **RF-004** | O sistema deve permitir que o usuário faça uma denúncia                                                                                        | Geovanni e Vagner    | cadastro-noticia.html    |
-| **RF-005** | O sistema deve ter um mapa interativo onde seja possível colocar marcadores específicos para denunciar um ou mais problemas em uma localização designada | Geovanni   | cadastro-noticia.html    |
-| **RF-006** | O sistema deve ter um histórico de ocorrências ambientais                                                                                      | Geovanni   | cadastro-noticia.html    |
-| **RF-007** | O sistema deve ter uma seção com conteúdos informativos e educativos sobre o desmatamento                                                      | Alvaro   | cadastro-noticia.html    |
-| **RF-009** | O sistema deve ser responsivo                                                                                                                 | Todos   | cadastro-noticia.html    |
-| **RF-010** | O sistema deve seguir um padrão visual consistente de cores e fontes em todas as páginas                                                       | Todos   | cadastro-noticia.html    |
-| **RF-011** | O sistema deve processar requisições do usuário em no máximo 3 segundos                                                                        |Todos   | cadastro-noticia.html    |
-| **RF-012** | O sistema deve ser multiplataforma                                                                                                            | Todos   | cadastro-noticia.html    |
-| **RF-013** | O sistema deve oferecer uma boa experiência de uso (UX)                                                                                       | Todos   | cadastro-noticia.html    |
-| **RF-014** | O sistema deve ter textos legíveis e com contraste adequado                                                                                    | Todos   | cadastro-noticia.html    |
+| **RF-001** | O sistema deve permitir que o usuário crie seu login                                                                                          | Vagner   | login.html    |
+| **RF-002** | O sistema deve permitir que o usuário gerencie seu login                                                                                       | Matheus  | profile.html    |
+| **RF-003** | O sistema deve permitir a emissão de um relatório no fim do mês                                                                                | Geovanni e Vagner   | dashboard.html    |
+| **RF-004** | O sistema deve permitir que o usuário faça uma denúncia                                                                                        | Geovanni e Vagner    | dashboard.html    |
+| **RF-005** | O sistema deve ter um mapa interativo onde seja possível colocar marcadores específicos para denunciar um ou mais problemas em uma localização designada | Geovanni   | my-alerts.html    |
+| **RF-006** | O sistema deve ter um histórico de ocorrências ambientais                                                                                      | Geovanni   | dashboard.html    |
+| **RF-007** | O sistema deve ter uma seção com conteúdos informativos e educativos sobre o desmatamento                                                      | Alvaro   | index.html    |
+| **RF-009** | O sistema deve ser responsivo                                                                                                                 | Todos   | Todas as paginas.html    |
+| **RF-010** | O sistema deve seguir um padrão visual consistente de cores e fontes em todas as páginas                                                       | Todos   | Todas as paginas.html    |
+| **RF-011** | O sistema deve processar requisições do usuário em no máximo 3 segundos                                                                        |Todos   | Todas as paginas.html    |
+| **RF-012** | O sistema deve ser multiplataforma                                                                                                            | Todos   | Todas as paginas.html   |
+| **RF-013** | O sistema deve oferecer uma boa experiência de uso (UX)                                                                                       | Todos   | Todas as paginas.html    |
+| **RF-014** | O sistema deve ter textos legíveis e com contraste adequado                                                                                    | Todos   | Todas as paginas.html    |
 
 
 
