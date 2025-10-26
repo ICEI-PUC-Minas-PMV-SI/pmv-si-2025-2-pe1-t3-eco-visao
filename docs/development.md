@@ -34,12 +34,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | **RF-005** | O sistema deve ter um mapa interativo onde seja possível colocar marcadores específicos para denunciar um ou mais problemas em uma localização designada | Geovanni   | my-alerts.html    |
 | **RF-006** | O sistema deve ter um histórico de ocorrências ambientais                                                                                      | Geovanni   | dashboard.html    |
 | **RF-007** | O sistema deve ter uma seção com conteúdos informativos e educativos sobre o desmatamento                                                      | Alvaro   | index.html    |
-| **RF-009** | O sistema deve ser responsivo                                                                                                                 | Todos   | Todas as paginas.html    |
-| **RF-010** | O sistema deve seguir um padrão visual consistente de cores e fontes em todas as páginas                                                       | Todos   | Todas as paginas.html    |
-| **RF-011** | O sistema deve processar requisições do usuário em no máximo 3 segundos                                                                        |Todos   | Todas as paginas.html    |
-| **RF-012** | O sistema deve ser multiplataforma                                                                                                            | Todos   | Todas as paginas.html   |
-| **RF-013** | O sistema deve oferecer uma boa experiência de uso (UX)                                                                                       | Todos   | Todas as paginas.html    |
-| **RF-014** | O sistema deve ter textos legíveis e com contraste adequado                                                                                    | Todos   | Todas as paginas.html    |
+| **RF-008** | O sistema deve ser responsivo                                                                                                                 | Todos   | Todas as paginas     |
+| **RF-009** | O sistema deve seguir um padrão visual consistente de cores e fontes em todas as páginas                                                       | Todos   | Todas as paginas     |
+| **RF-010** | O sistema deve processar requisições do usuário em no máximo 3 segundos                                                                        |Todos   | Todas as paginas     |
+| **RF-011** | O sistema deve ser multiplataforma                                                                                                            | Todos   | Todas as paginas    |
+| **RF-012** | O sistema deve oferecer uma boa experiência de uso (UX)                                                                                       | Todos   | Todas as paginas     |
+| **RF-013** | O sistema deve ter textos legíveis e com contraste adequado                                                                                    | Todos   | Todas as paginas   |
 
 
 ## Descrição das estruturas:
