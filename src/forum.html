@@ -11,6 +11,7 @@
     />
     <link rel="icon" type="image/x-icon" href="assets/img/faviconn.svg" />
   </head>
+
   <body class="min-h-screen bg-gray-50 flex">
     <aside
       id="sidebar"
@@ -29,36 +30,39 @@
       <nav class="flex-1 p-6">
         <ul class="space-y-2" id="menuItems">
           <li>
-            <a
-              href="./dashboard.html"
-              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:bg-white/10"
+            <button
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left text-white/70 hover:bg-white/10"
+              data-section="desmatamento"
             >
               <i class="fas fa-chart-bar w-5"></i> Desmatamento
-            </a>
+            </button>
           </li>
+
           <li>
-            <a
-              href="./dashboard.html"
-              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:bg-white/10"
+            <button
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left text-white/70 hover:bg-white/10"
+              data-section="queimadas"
             >
               <i class="fas fa-fire w-5"></i> Queimadas
-            </a>
+            </button>
           </li>
+
           <li>
-            <a
-              href="./dashboard.html"
-              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:bg-white/10"
+            <button
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left text-white/70 hover:bg-white/10"
+              data-section="mineracao"
             >
               <i class="fas fa-mountain w-5"></i> Mineração
-            </a>
+            </button>
           </li>
+
           <li>
-            <a
-              href="./dashboard.html"
-              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:bg-white/10"
+            <button
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left text-white/70 hover:bg-white/10"
+              data-section="fauna"
             >
               <i class="fas fa-hippo w-5"></i> Fauna
-            </a>
+            </button>
           </li>
 
           <li class="pt-3 border-t border-white/20"></li>
@@ -66,36 +70,37 @@
           <li>
             <a
               href="./forum.html"
-              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-white hover:bg-white/20"
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:bg-white/10"
             >
               <i class="fas fa-comments w-5"></i> Fórum
             </a>
           </li>
 
           <li>
-            <a
-              href="./meus-alertas.html"
-              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:bg-white/10"
+            <button
+              id="meusAlertasBtn"
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left text-white/70 hover:bg-white/10"
             >
               <i class="fas fa-bell w-5"></i> Meus Alertas
-            </a>
+            </button>
           </li>
         </ul>
       </nav>
 
       <div class="p-6 border-t border-green-400/20 space-y-2">
-        <a
-          href="./profile.html"
+        <button
+          id="profileBtn"
           class="w-full flex items-center gap-2 bg-transparent border border-white/20 text-white hover:bg-white/10 px-3 py-2 rounded-lg"
         >
           <i class="fas fa-user"></i> Perfil
-        </a>
-        <a
-          href="./index.html"
+        </button>
+
+        <button
+          id="logoutBtn"
           class="w-full flex items-center gap-2 bg-transparent border border-white/20 text-white hover:bg-white/10 px-3 py-2 rounded-lg"
         >
           <i class="fas fa-sign-out-alt"></i> Sair
-        </a>
+        </button>
       </div>
     </aside>
 
@@ -111,18 +116,21 @@
           <h2 class="text-lg font-semibold text-gray-800 mb-3">
             Criar novo tópico
           </h2>
+
           <input
             id="postTitle"
             type="text"
             placeholder="Título do tópico"
             class="w-full border border-gray-300 rounded-lg px-3 py-2 mb-3 focus:outline-none focus:ring-2 focus:ring-green-600"
           />
+
           <textarea
             id="postContent"
             rows="4"
             placeholder="Descreva seu tópico..."
             class="w-full border border-gray-300 rounded-lg px-3 py-2 mb-3 focus:outline-none focus:ring-2 focus:ring-green-600"
           ></textarea>
+
           <button
             id="confirmPost"
             class="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700"
@@ -147,11 +155,12 @@
                 <i class="far fa-clock"></i> 20/09/2025, 14:35:00
               </div>
             </div>
+
             <div class="flex gap-2 ml-4">
-              <button class="text-blue-600 hover:text-blue-800">
+              <button class="editBtn text-blue-600 hover:text-blue-800">
                 <i class="fas fa-edit"></i>
               </button>
-              <button class="text-red-600 hover:text-red-800">
+              <button class="deleteBtn text-red-600 hover:text-red-800">
                 <i class="fas fa-trash"></i>
               </button>
             </div>
@@ -166,17 +175,18 @@
               </h3>
               <p class="text-gray-700">
                 Estou desenvolvendo um projeto de armadilhas fotográficas.
-                Alguém tem interesse em colaborar com análise de imagens?
+                Alguém tem interesse em colaborar com análise de imagens
               </p>
               <div class="text-sm text-gray-400 mt-2">
                 <i class="far fa-clock"></i> 25/09/2025, 10:12:00
               </div>
             </div>
+
             <div class="flex gap-2 ml-4">
-              <button class="text-blue-600 hover:text-blue-800">
+              <button class="editBtn text-blue-600 hover:text-blue-800">
                 <i class="fas fa-edit"></i>
               </button>
-              <button class="text-red-600 hover:text-red-800">
+              <button class="deleteBtn text-red-600 hover:text-red-800">
                 <i class="fas fa-trash"></i>
               </button>
             </div>
@@ -197,11 +207,12 @@
                 <i class="far fa-clock"></i> 30/09/2025, 08:47:00
               </div>
             </div>
+
             <div class="flex gap-2 ml-4">
-              <button class="text-blue-600 hover:text-blue-800">
+              <button class="editBtn text-blue-600 hover:text-blue-800">
                 <i class="fas fa-edit"></i>
               </button>
-              <button class="text-red-600 hover:text-red-800">
+              <button class="deleteBtn text-red-600 hover:text-red-800">
                 <i class="fas fa-trash"></i>
               </button>
             </div>
@@ -210,4 +221,6 @@
       </div>
     </main>
   </body>
+</html>
+"> <button class="editBtn text-blue-600 hover:text-blue-800"> <i class="fas fa-edit"></i> </button> <button class="deleteBtn text-red-600 hover:text-red-800"> <i class="fas fa-trash"></i> </button> </div> </div> </section> </div> </main> </body> </html>
 </html>
