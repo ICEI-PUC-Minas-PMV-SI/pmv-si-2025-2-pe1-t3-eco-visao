@@ -25,82 +25,87 @@
         </div>
         <p id="userName" class="text-white/80 text-sm mt-2">Olá, Usuário</p>
       </div>
+
       <nav class="flex-1 p-6">
         <ul class="space-y-2" id="menuItems">
           <li>
-            <button
-              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left text-white/70 hover:bg-white/10"
-              data-section="desmatamento"
+            <a
+              href="./dashboard.html"
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:bg-white/10"
             >
               <i class="fas fa-chart-bar w-5"></i> Desmatamento
-            </button>
+            </a>
           </li>
           <li>
-            <button
-              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left text-white/70 hover:bg-white/10"
-              data-section="queimadas"
+            <a
+              href="./dashboard.html"
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:bg-white/10"
             >
               <i class="fas fa-fire w-5"></i> Queimadas
-            </button>
+            </a>
           </li>
           <li>
-            <button
-              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left text-white/70 hover:bg-white/10"
-              data-section="mineracao"
+            <a
+              href="./dashboard.html"
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:bg-white/10"
             >
               <i class="fas fa-mountain w-5"></i> Mineração
-            </button>
+            </a>
           </li>
           <li>
-            <button
-              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left text-white/70 hover:bg-white/10"
-              data-section="fauna"
+            <a
+              href="./dashboard.html"
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:bg-white/10"
             >
               <i class="fas fa-hippo w-5"></i> Fauna
-            </button>
+            </a>
           </li>
+
           <li class="pt-3 border-t border-white/20"></li>
 
           <li>
             <a
               href="./forum.html"
-              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:bg-white/10"
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-white hover:bg-white/20"
             >
               <i class="fas fa-comments w-5"></i> Fórum
             </a>
           </li>
 
           <li>
-            <button
-              id="meusAlertasBtn"
-              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-left text-white/70 hover:bg-white/10"
+            <a
+              href="./meus-alertas.html"
+              class="w-full flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:bg-white/10"
             >
               <i class="fas fa-bell w-5"></i> Meus Alertas
-            </button>
+            </a>
           </li>
         </ul>
       </nav>
+
       <div class="p-6 border-t border-green-400/20 space-y-2">
-        <button
-          id="profileBtn"
+        <a
+          href="./profile.html"
           class="w-full flex items-center gap-2 bg-transparent border border-white/20 text-white hover:bg-white/10 px-3 py-2 rounded-lg"
         >
           <i class="fas fa-user"></i> Perfil
-        </button>
-        <button
-          id="logoutBtn"
+        </a>
+        <a
+          href="./index.html"
           class="w-full flex items-center gap-2 bg-transparent border border-white/20 text-white hover:bg-white/10 px-3 py-2 rounded-lg"
         >
           <i class="fas fa-sign-out-alt"></i> Sair
-        </button>
+        </a>
       </div>
     </aside>
+
     <main class="flex-1 flex flex-col ml-0">
       <header
         class="bg-white shadow px-6 py-4 border-b border-gray-200 flex items-center justify-between"
       >
         <h1 class="text-xl font-semibold text-gray-800">Fórum da Comunidade</h1>
       </header>
+
       <div id="forumContainer" class="flex-1 p-6 overflow-auto space-y-6">
         <section class="bg-white p-5 rounded-xl shadow border border-gray-200">
           <h2 class="text-lg font-semibold text-gray-800 mb-3">
@@ -125,6 +130,7 @@
             <i class="fas fa-paper-plane"></i> Publicar
           </button>
         </section>
+
         <section id="topicsList" class="space-y-4">
           <div
             class="bg-white border border-gray-200 rounded-lg p-4 shadow hover:shadow-md transition flex justify-between items-start"
@@ -142,14 +148,15 @@
               </div>
             </div>
             <div class="flex gap-2 ml-4">
-              <button class="editBtn text-blue-600 hover:text-blue-800">
+              <button class="text-blue-600 hover:text-blue-800">
                 <i class="fas fa-edit"></i>
               </button>
-              <button class="deleteBtn text-red-600 hover:text-red-800">
+              <button class="text-red-600 hover:text-red-800">
                 <i class="fas fa-trash"></i>
               </button>
             </div>
           </div>
+
           <div
             class="bg-white border border-gray-200 rounded-lg p-4 shadow hover:shadow-md transition flex justify-between items-start"
           >
@@ -159,21 +166,22 @@
               </h3>
               <p class="text-gray-700">
                 Estou desenvolvendo um projeto de armadilhas fotográficas.
-                Alguém tem interesse em colaborar com análise de imagens
+                Alguém tem interesse em colaborar com análise de imagens?
               </p>
               <div class="text-sm text-gray-400 mt-2">
                 <i class="far fa-clock"></i> 25/09/2025, 10:12:00
               </div>
             </div>
             <div class="flex gap-2 ml-4">
-              <button class="editBtn text-blue-600 hover:text-blue-800">
+              <button class="text-blue-600 hover:text-blue-800">
                 <i class="fas fa-edit"></i>
               </button>
-              <button class="deleteBtn text-red-600 hover:text-red-800">
+              <button class="text-red-600 hover:text-red-800">
                 <i class="fas fa-trash"></i>
               </button>
             </div>
           </div>
+
           <div
             class="bg-white border border-gray-200 rounded-lg p-4 shadow hover:shadow-md transition flex justify-between items-start"
           >
@@ -190,10 +198,10 @@
               </div>
             </div>
             <div class="flex gap-2 ml-4">
-              <button class="editBtn text-blue-600 hover:text-blue-800">
+              <button class="text-blue-600 hover:text-blue-800">
                 <i class="fas fa-edit"></i>
               </button>
-              <button class="deleteBtn text-red-600 hover:text-red-800">
+              <button class="text-red-600 hover:text-red-800">
                 <i class="fas fa-trash"></i>
               </button>
             </div>
