@@ -18,11 +18,37 @@ Para executar este projeto localmente, siga as instruções abaixo:
    cd src
    ```
 
-3. Acesse a aplicação no seu navegador com o comando:
+3. Para abrir a aplicação no navegador:
 
    ```bash
    start exemplo.html
    ```
+
+## Executando a API Fake (JSON Server)
+
+Para simular uma API local usando o `db.json`:
+
+1. Certifique-se de estar dentro da pasta `/src` do projeto.
+
+2. Instale o JSON Server caso ainda não tenha:
+
+   ```bash
+   npm install -g json-server
+   ```
+
+3. Execute o servidor:
+
+   ```bash
+   npx json-server --watch db.json --port 3000
+   ```
+
+4. Acesse a API pelo navegador ou ferramentas como Postman:
+
+   ```
+   http://localhost:3000/
+   ```
+
+> Agora você pode consumir os dados do `db.json` como se fossem de uma API real.
 
 ## Versão inicial do projeto [v0.1.0] - 30/09/2025
 
