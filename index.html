@@ -1,160 +1,194 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial - Radar Florestal</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="assets/styles.cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radar Florestal</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        * {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-
-        h1 {
-            color: #1f2937;
-        }
-
-        p,
-        li {
-            color: #4b5563
-        }
-    </style>
-</head>
-
-<body>
-    <header class="fixed w-full bg-white shadow-[0_5px_10px_-5px_rgba(0,0,0,0.3)]">
-        <nav id="navbar" class="container mx-auto px-4 py-4">
-            <div class="flex items-center justify-between">
-
-                <div>
-                    <a href="#" class="text-xl font-bold text-[#16a34a]">
-                        <i class="fa-solid fa-leaf"></i>
-                        Radar Florestal
-                    </a>
-                </div>
-
-                <ul class="hidden sm:flex justify-center items-center gap-9">
-                    <li class="hover:text-[#16a34a]"><a href="#sobre">Sobre</li></a>
-                    <li class="hover:text-[#16a34a]"><a href="#beneficios">Benefícios</li></a>
-                    <li class="hover:text-[#16a34a]"><a href="#depoimentos">Depoimentos</li></a>
-                    <li class="hover:text-[#16a34a]"><a href="#contato">Contato</li></a>
-                </ul>
-                <a href="./src/login.html">
-                    <button class="text-white rounded-3xl w-20 p-2 ml-12 bg-[#16a34a] hover:bg-[#15803d]">Entrar</button>
-                </a>
-            </div>
-        </nav>
-
-    </header>
-    <section id="hero" class="flex flex-col items-center text-center py-32 px-6 bg-[#f9fafb]">
-        <img src="src/assets/img/faviconn.svg" width="80" alt="RF_Logo" class="mb-6">
-        <h1 class="text-6xl font-bold mb-6">Radar Florestal</h1>
-        <h2 class="text-3xl text-[#29b95e] font-normal mb-8">Monitoramento Ambiental Inteligente</h2>
-        <p class="text-xl">Sistema avançado de acompanhamento em tempo real de dados ambientais:</p>
-        <p class="text-xl font-semibold text-[#16a34a] mb-8">desmatamento, queimadas, mineração e fauna.</p>
-        <a href="./src/login.html">
-            <button
-                class="rounded-[2rem] w-48 p-4 text-white font-semibold bg-[#16a34a] shadow-[0_5px_10px_rgba(0,0,0,0.3)] hover:bg-[#15803d]">
-                Acessar Sistema
-            </button>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/img/faviconn.svg">
+  </head>
+  <body class="min-h-screen bg-gray-50 text-gray-800">
+    <header class="fixed w-full top-0 left-0 bg-white shadow z-50">
+      <nav
+        class="container mx-auto flex items-center justify-between py-4 px-6"
+      >
+        <a
+          href="#"
+          class="flex items-center gap-2 text-green-600 font-bold text-xl"
+        >
+          <i class="fas fa-leaf"></i> Radar Florestal
         </a>
+        <ul class="hidden md:flex items-center gap-6 font-medium text-gray-700">
+          <li><a href="#sobre" class="hover:text-green-600">Sobre</a></li>
+          <li>
+            <a href="#beneficios" class="hover:text-green-600">Benefícios</a>
+          </li>
+          <li>
+            <a href="#depoimentos" class="hover:text-green-600">Depoimentos</a>
+          </li>
+          <li><a href="#contato" class="hover:text-green-600">Contato</a></li>
+        </ul>
+        <button
+          class="bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-full font-medium"
+        >
+          <a href="src/register.html">Entrar</a>
+        </button>
+      </nav>
+    </header>
+    <section class="container mx-auto px-4 py-32 text-center">
+      <div
+        class="w-20 h-20 bg-gradient-to-r from-green-600 to-green-500 rounded-full flex items-center justify-center shadow-lg mx-auto mb-8"
+      >
+        <i class="fas fa-leaf text-green-50 text-3xl"></i>
+      </div>
+      <h1 class="text-5xl md:text-6xl font-bold">Radar Florestal</h1>
+      <h2
+        class="text-2xl md:text-3xl mt-4 text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-green-400"
+      >
+        Monitoramento Ambiental Inteligente
+      </h2>
+      <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mt-6">
+        Sistema avançado de acompanhamento em tempo real de dados ambientais:
+        <span class="text-green-600 font-semibold"
+          >desmatamento, queimadas, mineração e fauna</span
+        >.
+      </p>
+      <button
+        class="mt-10 px-10 py-4 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-full shadow-lg"
+      >
+        <a href="src/register.html">Acessar Sistema</a>
+      </button>
     </section>
-
-
-    <section id="sobre" class="py-12">
-        <div class="container grid mx-auto md:grid-cols-2 items-center gap-10 px-6">
-            <img id="radarIcon" class="rounded-3xl shadow-[0_10px_10px_0px_rgba(0,0,0,0.1)]" src="src/assets/img/bg.png" width="725px" alt="RF_bg">
-            <div class="max-w-[45rem] text-left">
-                <h1 id="sobre_h1" class="pb-4 text-3xl font-bold">
-                    Sobre o Radar Florestal
-                </h1>
-                <p id="sobre_p" class="leading-[1.6]">
-                    O Radar Florestal é uma solução inovadora que integra dados ambientais em tempo real para auxiliar
-                    governos, ONGs e empresas a tomar decisões mais sustentáveis. Nosso objetivo é proteger o futuro do
-                    planeta com tecnologia de ponta e informações confiáveis.
-                </p>
-            </div>
+    <section id="sobre" class="bg-white py-20">
+      <div
+        class="container mx-auto grid md:grid-cols-2 gap-10 items-center px-6"
+      >
+        <img
+          src="src/assets/img/bg.png"
+          class="rounded-2xl shadow-lg"
+          alt="Natureza"
+        />
+        <div>
+          <h2 class="text-3xl font-bold mb-4">Sobre o Radar Florestal</h2>
+          <p class="text-gray-600 leading-relaxed">
+            O Radar Florestal é uma solução inovadora que integra dados ambientais em
+            tempo real para auxiliar governos, ONGs e empresas a tomar decisões
+            mais sustentáveis. Nosso objetivo é proteger o futuro do planeta com
+            tecnologia de ponta e informações confiáveis.
+          </p>
         </div>
-
+      </div>
     </section>
-
-    <section id="beneficios" class="flex flex-col items-center bg-[#f0fdf4] py-20 px-6">
-        <h1 class="text-center text-3xl font-bold mb-10">
-            Benefícios
-        </h1>
-
-        <div class="grid md:grid-cols-3 gap-10">
-            <div id="div_dados" class="max-w-[29rem] p-8 text-center bg-white rounded-xl shadow hover:shadow-[0_5px_10px_rgba(0,0,0,0.2)]">
-                <i class="fa-solid fa-bolt text-2xl" style="color: #16a34a;"></i>
-                <h2 class="font-semibold text-xl mb-2">Dados em Tempo Real</h2>
-                <p>Atualizações constantes para decisões rápidas e precisas.</p>
-            </div>
-
-            <div id="div_global" class="max-w-[29rem] p-8 text-center bg-white rounded-xl shadow hover:shadow-[0_5px_10px_rgba(0,0,0,0.2)]">
-                <i class="fa-solid fa-globe text-2xl" style="color: #16a34a;"></i>
-                <h2 class="font-semibold text-xl mb-2">Cobertura Global</h2>
-                <p>Monitoramento de diferentes regiões e ecossistemas.</p>
-            </div>
-
-            <div id="div_impacto" class="max-w-[29rem] p-8 text-center bg-white rounded-xl shadow hover:shadow-[0_5px_10px_rgba(0,0,0,0.2)]">
-                <i class="fa-solid fa-hand-holding-heart text-2xl" style="color: #16a34a;"></i>
-                <h2 class="font-semibold text-xl mb-2">Impacto Sustentável</h2>
-                <p>Tecnologia a favor da preservação ambiental.</p>
-            </div>
+    <section id="beneficios" class="py-20 bg-green-50">
+      <div class="container mx-auto text-center px-6">
+        <h2 class="text-3xl font-bold mb-12">Benefícios</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg">
+            <i class="fas fa-bolt text-green-600 text-3xl mb-4"></i>
+            <h3 class="font-semibold text-lg">Dados em Tempo Real</h3>
+            <p class="text-gray-500 mt-2">
+              Atualizações constantes para decisões rápidas e precisas.
+            </p>
+          </div>
+          <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg">
+            <i class="fas fa-globe text-green-600 text-3xl mb-4"></i>
+            <h3 class="font-semibold text-lg">Cobertura Global</h3>
+            <p class="text-gray-500 mt-2">
+              Monitoramento de diferentes regiões e ecossistemas.
+            </p>
+          </div>
+          <div class="bg-white p-8 rounded-xl shadow hover:shadow-lg">
+            <i
+              class="fas fa-hand-holding-heart text-green-600 text-3xl mb-4"
+            ></i>
+            <h3 class="font-semibold text-lg">Impacto Sustentável</h3>
+            <p class="text-gray-500 mt-2">
+              Tecnologia a favor da preservação ambiental.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
-
-    <section id="depoimentos" class="flex flex-col items-center bg-white py-20 px-6">
-        <h1 class="text-center text-3xl font-bold mb-10">
-            O que dizem nossos parceiros
-        </h1>
-
-        <div class="grid md:grid-cols-3 gap-10">
-            <div id="div_ONG" class="max-w-[29rem] p-6 text-center bg-[#f0fdf4] rounded-xl shadow hover:shadow-[0_5px_10px_rgba(0,0,0,0.2)]">
-                <p class="mb-2 italic"> "O Radar Florestal revolucionou nossa forma de acompanhar queimadas."</p>
-                <p class="font-semibold text-[#15803d]">— ONG Floresta Viva</p>
-            </div>
-
-            <div id="div_governo" class="max-w-[29rem] p-6 text-center bg-[#f0fdf4] rounded-xl shadow hover:shadow-[0_5px_10px_rgba(0,0,0,0.2)]">
-                <p class="mb-2 italic"> "Dados precisos que ajudaram na criação de políticas públicas."</p>
-                <p class="font-semibold text-[#15803d]">— Governo Estadual</p>
-            </div>
-
-            <div id="div_univ" class="max-w-[29rem] p-6 text-center bg-[#f0fdf4] rounded-xl shadow hover:shadow-[0_5px_10px_rgba(0,0,0,0.2)]">
-                <p class="mb-2 italic"> "Essencial para nossas pesquisas sobre biodiversidade."</p>
-                <p class="font-semibold text-[#15803d]">— Universidade Verde</p>
-            </div>
+    <section id="depoimentos" class="py-20 bg-white">
+      <div class="container mx-auto text-center px-6">
+        <h2 class="text-3xl font-bold mb-12">O que dizem nossos parceiros</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-green-50 p-6 rounded-xl shadow">
+            <p class="text-gray-600 italic">
+              "O Radar Florestal revolucionou nossa forma de acompanhar queimadas."
+            </p>
+            <h4 class="mt-4 font-semibold text-green-700">
+              — ONG Floresta Viva
+            </h4>
+          </div>
+          <div class="bg-green-50 p-6 rounded-xl shadow">
+            <p class="text-gray-600 italic">
+              "Dados precisos que ajudaram na criação de políticas públicas."
+            </p>
+            <h4 class="mt-4 font-semibold text-green-700">
+              — Governo Estadual
+            </h4>
+          </div>
+          <div class="bg-green-50 p-6 rounded-xl shadow">
+            <p class="text-gray-600 italic">
+              "Essencial para nossas pesquisas sobre biodiversidade."
+            </p>
+            <h4 class="mt-4 font-semibold text-green-700">
+              — Universidade Verde
+            </h4>
+          </div>
         </div>
+      </div>
     </section>
-
     <section id="contato" class="py-20 bg-green-50">
-        <div class="container mx-auto px-6 max-w-3xl text-center">
-            <h2 class="text-3xl font-bold mb-8">Entre em Contato</h2>
-            <form class="grid gap-6 bg-white p-8 rounded-2xl shadow">
-                <input type="text" placeholder="Nome" class="border border-[#d1d5db] rounded-lg px-4 py-3 ">
-                <input type="email" placeholder="E-mail" class="border border-[#d1d5db] rounded-lg px-4 py-3">
-                <textarea placeholder="Mensagem" rows="4"
-                    class="border border-[#d1d5db] rounded-lg px-4 py-3"></textarea>
-                <button class="bg-[#16a34a] hover:bg-[#15803d] text-white font-semibold py-3 rounded-lg">
-                    Enviar
-                </button>
-            </form>
-        </div>
+      <div class="container mx-auto px-6 max-w-3xl text-center">
+        <h2 class="text-3xl font-bold mb-8">Entre em Contato</h2>
+        <form class="grid gap-6 bg-white p-8 rounded-2xl shadow">
+          <input
+            type="text"
+            placeholder="Nome"
+            class="border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-green-600"
+          />
+          <input
+            type="email"
+            placeholder="E-mail"
+            class="border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-green-600"
+          />
+          <textarea
+            placeholder="Mensagem"
+            rows="4"
+            class="border border-gray-300 rounded-lg px-4 py-3 focus:ring-2 focus:ring-green-600"
+          ></textarea>
+          <button
+            class="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 rounded-lg"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>
     </section>
-    <footer class="flex flex-col items-center pt-12 pb-12 bg-[#111827]">
-        <p class="text-center text-[#9ca3af] mb-4">© 2024 Radar Florestal - Tecnologia para um futuro sustentável</p>
-        <div class="flex gap-6">
-            <i class="fa-brands fa-facebook text-[#9ca3af] hover:text-white cursor-pointer"></i>
-            <i class="fa-brands fa-twitter text-[#9ca3af] hover:text-white cursor-pointer"></i>
-            <i class="fa-brands fa-linkedin text-[#9ca3af] hover:text-white cursor-pointer"></i>
-            <i class="fa-brands fa-instagram text-[#9ca3af] hover:text-white cursor-pointer"></i>
+    <footer class="bg-gray-900 py-10 text-center text-gray-400">
+      <div class="container mx-auto space-y-4">
+        <p>© 2024 Radar Florestal - Tecnologia para um futuro sustentável</p>
+        <div class="flex justify-center gap-6">
+          <a href="#" class="hover:text-white"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="#" class="hover:text-white"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="#" class="hover:text-white"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="#" class="hover:text-white"
+            ><i class="fab fa-instagram"></i
+          ></a>
         </div>
+      </div>
     </footer>
-</body>
-
-
-
+  </body>
 </html>

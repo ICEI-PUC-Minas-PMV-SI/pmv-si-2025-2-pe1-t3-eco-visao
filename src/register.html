@@ -14,7 +14,7 @@
   <body
     class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-4"
   >
-    <div class="w-full max-w-md">
+    <div class="w-full max-w-2xl">
       <div class="text-center mb-8">
         <div
           class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center shadow-md mx-auto mb-4"
@@ -58,24 +58,43 @@
               Clique na câmera para adicionar uma foto
             </p>
           </div>
-          <div class="space-y-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="space-y-2">
-              <label for="name" class="text-sm font-medium text-gray-700"
-                >Nome completo</label
+              <label for="firstName" class="text-sm font-medium text-gray-700"
+                >Primeiro Nome</label
               >
               <div class="relative">
                 <i
                   class="fas fa-user absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
                 ></i>
                 <input
-                  id="name"
+                  id="firstName"
                   type="text"
-                  placeholder="Seu nome completo"
+                  placeholder="Seu primeiro nome"
                   required
                   class="w-full border border-gray-300 rounded-lg px-10 py-2 focus:ring-2 focus:ring-green-400 focus:outline-none"
                 />
               </div>
             </div>
+
+            <div class="space-y-2">
+              <label for="lastName" class="text-sm font-medium text-gray-700"
+                >Sobrenome</label
+              >
+              <div class="relative">
+                <i
+                  class="fas fa-user absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+                ></i>
+                <input
+                  id="lastName"
+                  type="text"
+                  placeholder="Seu sobrenome"
+                  required
+                  class="w-full border border-gray-300 rounded-lg px-10 py-2 focus:ring-2 focus:ring-green-400 focus:outline-none"
+                />
+              </div>
+            </div>
+
             <div class="space-y-2">
               <label for="email" class="text-sm font-medium text-gray-700"
                 >Email</label
@@ -93,6 +112,60 @@
                 />
               </div>
             </div>
+
+            <div class="space-y-2">
+              <label for="cpf" class="text-sm font-medium text-gray-700"
+                >CPF</label
+              >
+              <div class="relative">
+                <i
+                  class="fas fa-id-card absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+                ></i>
+                <input
+                  id="cpf"
+                  type="text"
+                  placeholder="Digite seu CPF"
+                  required
+                  class="w-full border border-gray-300 rounded-lg px-10 py-2 focus:ring-2 focus:ring-green-400 focus:outline-none"
+                />
+              </div>
+            </div>
+
+            <div class="space-y-2">
+              <label for="address" class="text-sm font-medium text-gray-700"
+                >Endereço</label
+              >
+              <div class="relative">
+                <i
+                  class="fas fa-map-marker-alt absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+                ></i>
+                <input
+                  id="address"
+                  type="text"
+                  placeholder="Seu endereço completo"
+                  required
+                  class="w-full border border-gray-300 rounded-lg px-10 py-2 focus:ring-2 focus:ring-green-400 focus:outline-none"
+                />
+              </div>
+            </div>
+
+            <div class="space-y-2">
+              <label for="birthdate" class="text-sm font-medium text-gray-700"
+                >Data de Nascimento</label
+              >
+              <div class="relative">
+                <i
+                  class="fas fa-calendar absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+                ></i>
+                <input
+                  id="birthdate"
+                  type="date"
+                  required
+                  class="w-full border border-gray-300 rounded-lg px-10 py-2 focus:ring-2 focus:ring-green-400 focus:outline-none"
+                />
+              </div>
+            </div>
+
             <div class="space-y-2">
               <label for="password" class="text-sm font-medium text-gray-700"
                 >Senha</label
@@ -111,11 +184,12 @@
                 />
               </div>
             </div>
+
             <div class="space-y-2">
               <label
                 for="confirmPassword"
                 class="text-sm font-medium text-gray-700"
-                >Confirmar senha</label
+                >Confirmar Senha</label
               >
               <div class="relative">
                 <i
@@ -131,6 +205,7 @@
               </div>
             </div>
           </div>
+
           <div
             id="errorMsg"
             class="hidden bg-red-100 text-red-600 text-sm p-3 rounded-lg flex items-center gap-2"
@@ -153,6 +228,7 @@
             <i class="fas fa-user-plus mr-2 hidden sm:inline"></i> Cadastrar
           </button>
         </form>
+
         <div class="text-center mt-6 text-sm">
           <p class="text-gray-500">
             Já tem uma conta?
@@ -170,5 +246,6 @@
         </div>
       </div>
     </div>
+    <script src="assets/js/register.js"></script>
   </body>
 </html>
